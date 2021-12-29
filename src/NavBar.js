@@ -1,7 +1,7 @@
 import React from 'react'
 import ep_logo from './ep_enduro_logo.svg';
 import './NavBar.css';
-import { Link } from "react-router-dom";
+
 
 export default function NavBar() {
     return (
@@ -17,7 +17,7 @@ export default function NavBar() {
                     <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="#">Home</a>
+                            <a className="nav-link active" aria-current="page" href="/">Home</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#">Races</a>
@@ -26,7 +26,7 @@ export default function NavBar() {
                             <a className="nav-link" href="#">News</a>
                         </li>
                         <li className="nav-item">
-                                <Link to="/contactus">Contact Us</Link>  
+                        <a className="nav-link" href="/contactus">Contact Us</a> 
                         </li>
                       <li className="nav-item">
                         <a className="nav-link" href="#">Donate</a>

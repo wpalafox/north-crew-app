@@ -25,23 +25,30 @@ export const ContactUs = () => {
     
     
     <form ref={form} onSubmit={sendEmail}>
-        <p>Now that you have learned the true and full purpose of the current
-          study and know about the actual manipulations that took place as part of this study,
-          do you wish to have your data to be included in this research project?</p>
+        <p>Let us know if you have any questions or comments!</p>
+        
+        <div className="form-group row">
+            <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-10">
+                <input type="email" name="user_email"  />
+            </div>
 
-        <p>Please fill out the form below and change the message content if
-          you DO NOT want your data included in this study. Press the Send button when complete.
-        </p>
-        <label>Participant Name </label>
-        <input type="text" name="user_name" />
-        <br></br>
-        <label>Participant Email </label>
-        <input type="email" name="user_email" />
-        <br></br>
-        <label>Response </label>
-        <textarea name="message" value="Yes, I DO want my data included in this study " />
-        <input type="submit" value="Send" />
-      </form></>
+        </div>
+
+        <div className="form-group row">
+            <label for="staticMessage" class="col-sm-2 col-form-label">Message</label>
+            <div class="col-sm-10">
+                <textarea name="message"  />
+            </div>
+
+        </div>
+
+        <div className="form-group row">
+        <div class="col-sm-15">
+            <input type="submit" value="Send" />
+        </div>
+        </div>
+    </form></>
   );
 };
 
