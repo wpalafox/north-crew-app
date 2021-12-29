@@ -25,8 +25,29 @@ export const ContactUs = () => {
     
     
     <form ref={form} onSubmit={sendEmail}>
-        <p>Let us know if you have any questions or comments!</p>
+        <p>Slide in our DMs or send an email!</p>
         
+        <div className='form-group row'>
+            <div class="col-sm-1">
+               <a target="_blank" href="https://www.facebook.com/epduro/">
+                <i class="fab fa-facebook"  ></i>
+                </a> 
+            </div>
+
+            <div class="col-sm-1">
+            <a target="_blank" href="https://www.instagram.com/ependuro/">  
+                <i class="fab fa-instagram" target="_blank" href="https://www.instagram.com/ependuro/"></i>
+            </a>
+            </div>
+
+
+        </div>
+        
+
+      
+
+
+
         <div className="form-group row">
             <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
             <div class="col-sm-10">
