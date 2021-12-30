@@ -1,7 +1,10 @@
 form {
-    padding-top: 5%;
-    padding-left: 3%;
-    padding-right: 3%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    padding-left: 20%;
 
     background-color: #282c34;
     min-height: 100vh;
@@ -10,10 +13,13 @@ form {
     font-size: calc(10px + 2vmin);
     color: white;
     
+    
 
 
 
 }
+
+
 
 .fa-facebook{
     color: rgb(66, 103, 178) ;
