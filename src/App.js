@@ -3,6 +3,7 @@ import React, { Component }  from 'react';
 import './App.css';
 import NavBar from './NavBar.js'
 import ep_logo from './ep_enduro_logo.svg';
+import background_ep from './pics/ep_enduro_background.jpg';
 
 
 function App() {
@@ -28,6 +29,9 @@ function App() {
           What Is Enduro MTB Racing?
         </a>
       </header>
+      <img id="home" src={background_ep} alt="ep mountain" />
+
+  
       
     </div>
   );
