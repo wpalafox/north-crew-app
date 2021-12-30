@@ -24,62 +24,71 @@ export default function Footer() {
         <div className="container">
            
 
+            
+
             <div className="row">
-                <div className="col-sm-4">
+                <div className="col-4">
                         <a href="https://www.huntcompanies.com/"  target="_blank"> <img src={hunt_logo} className="logo-image" alt="Logo" /></a>
                 </div>
-                <div className="col-sm-4">
+                <div className="col-4">
                     <a href="https://www.theshocklab.com/"  target="_blank"><img src={shock_logo} className="logo-image" alt="Logo" /></a>
                 </div>
-                <div className="col-sm-4">
+                <div className="col-4">
                     <a href="http://www.bmbaelpaso.org/"  target="_blank"><img src={bmba_logo} className="logo-image" alt="Logo" /></a>
                 </div>
             </div>
+           
+           
+           
+           
+           
+           
+           
             <div className="row">
-                <div className="col-sm-4">
+                <div className="col-4">
                     <a href="https://www.handskegloves.com/"  target="_blank"><img src={handske_logo} className="logo-image" alt="Logo" /></a>
                 </div>
-                <div className="col-sm-4">
+                <div className="col-4">
                     <a href="https://www.merolracing.com/"  target="_blank"><img src={merol_logo} className="logo-image" alt="Logo" /></a>
                 </div>
-                <div className="col-sm-4">
+                <div className="col-4">
                     <a href="https://www.dogspeedco.com/"  target="_blank"><img src={dog_logo} className="logo-image" alt="Logo" /></a>
                 </div>
             </div>
 
             <div className="row">
-                <div className="col-sm-4">
+                <div className="col-4">
                     <a href="https://www.airrosti.com/location/Texas/SUMM/"  target="_blank"><img src={airrosti_logo} className="logo-image" alt="Logo" /></a>
                 </div>
-                <div className="col-sm-4">
+                <div className="col-4">
                     <a href="https://pollofelizjrz.com/"  target="_blank"><img src={pollo_logo} className="logo-image" alt="Logo" /></a>
                 </div>
-                <div className="col-sm-4">
+                <div className="col-4">
                     <a href="https://podiumfinishsportcafe.com/"  target="_blank"><img src={podium_logo} className="logo-image" alt="Logo" /></a>
                 </div>
             </div>
 
             <div className="row">
-                <div className="col-sm-4">
+                <div className="col-4">
                         <a href="https://crazycatcyclery.com/"  target="_blank"> <img src={crazy_logo} className="logo-image" alt="Logo" /></a>
                 </div>
-                <div className="col-sm-4">
+                <div className="col-4">
                     <a href="https://www.dripdriveiv.com/"  target="_blank">  <img src={drip_logo} className="logo-image" alt="Logo" /></a>
                 </div>
-                <div className="col-sm-4">
+                <div className="col-4">
                     <a href="https://www.facebook.com/maselpaso"  target="_blank">   <img src={masEP_logo} className="logo-image" alt="Logo" /></a>
                 </div>
             </div>
 
             <div className="row">
-                <div className="col-sm-6">
+                <div className="col-6">
                     <a href="https://www.kogel.cc/"  target="_blank"> <img src={kogel_logo} className="logo-image" alt="Logo" /></a>
                 </div>
                 
             </div>
 
             <div className="row">
-                <div className="col-sm-6">
+                <div className="col-6">
                     <p id='copyright'>Copyright © 2022 MEROL RACING LLC. All rights reserved.</p>
                 </div>
                 

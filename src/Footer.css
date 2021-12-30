@@ -1,6 +1,6 @@
 .logo-image {
-    width: 150px; /* You can set the dimensions to whatever you want */
-    height: 150;
+    max-width: 110px; /* You can set the dimensions to whatever you want */
+    
     object-fit: cover;
     padding-top: 10%;
 }
@@ -12,6 +12,6 @@
 
 #copyright{
     display: flex;
-    align-items: center;
+    align-items: cent;
     color: tomato;
 }
