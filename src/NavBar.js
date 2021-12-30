@@ -29,7 +29,7 @@ export default function NavBar() {
                             <a className="nav-link" href="/contactus">Contact Us</a> 
                             </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Donate</a>
+                            <a className="nav-link" href="/donate">Donate</a>
                         </li>
                         </ul>
 

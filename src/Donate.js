@@ -1,28 +1,28 @@
 import React from 'react';
-import './Donate.css';
-import NavBar from './NavBar';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import ep_logo from './ep_enduro_logo.svg';
+import './Donate.js';
 
 export default function Donate() {
     return (
-        
-    <div className="Donate">
-      <NavBar />
-      <header className="Donate-header">
-        <img src={ep_logo} className="App-logo pulse" alt="logo" />
-        <p>
-            Local EP MTB riders building our community through promoting racing events and trail maintenance
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn how to RIP
-        </a>
-      </header>
+        <div className="App">
+   
+                <header className="App-header">
+                    
+                    <h1>
+                    
+                    Donate and Help us Organize more Races and Ensure the Longevity and Sustainability of our Trail Systems.
+                    </h1>
+                    
+                
+                
+                    <a
+                    
+                    href="https://www.paypal.com/paypalme/ependuro"
+                    
+                   
+                    >
+                    <i className="fas fa-donate fa-5x"></i>
+                    </a>
+                </header>
       
     </div>
     )

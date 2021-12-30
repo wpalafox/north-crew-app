@@ -11,6 +11,9 @@ import ContactUs from './ContactUs.js';
 import reportWebVitals from './reportWebVitals';
 import NavBar from './NavBar.js';
 import Footer from './Footer.js';
+import Donate from './Donate.js';
+
+
 
 
 ReactDOM.render(
@@ -19,6 +22,9 @@ ReactDOM.render(
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/contactus" element={<ContactUs />} />
+      <Route path="/donate" element={<Donate />} />
+      
+    
     
     </Routes>
     <Footer />

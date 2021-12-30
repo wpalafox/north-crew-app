@@ -12,10 +12,10 @@ function App() {
       <header className="App-header">
         <img src={ep_logo} className="App-logo pulse" alt="logo" />
         <p>
-        An Organization founded and supported by Local MTB riders.
+        An Organization Founded and Supported by Local Mountain Bike Riders.
         </p>
         <p>
-        We promote and organize MTB Enduro style race events, and trail maintenance activities.
+        We Promote and Organize MTB Enduro Style Race Events, and Trail Maintenance Activities.
         </p>
       
      
@@ -25,7 +25,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          What Is Enduro Racing?
+          What Is Enduro MTB Racing?
         </a>
       </header>
       
