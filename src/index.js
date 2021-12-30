@@ -10,6 +10,8 @@ import App from './App';
 import ContactUs from './ContactUs.js';
 import reportWebVitals from './reportWebVitals';
 import NavBar from './NavBar.js';
+import Footer from './Footer.js';
+
 
 ReactDOM.render(
   <BrowserRouter>
@@ -19,7 +21,7 @@ ReactDOM.render(
       <Route path="/contactus" element={<ContactUs />} />
     
     </Routes>
-  
+    <Footer />
   
   
   </BrowserRouter>,

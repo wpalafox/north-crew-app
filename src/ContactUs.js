@@ -47,7 +47,7 @@ export const ContactUs = () => {
 
 
         <div className="form-group row">
-            <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+            <label for="staticEmail" class="col-sm-2 col-form-label">Your Email</label>
             <div class="col-sm-10">
                 <input type="email" name="user_email"  />
             </div>

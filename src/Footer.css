@@ -1,0 +1,12 @@
+.logo-image {
+    width: 150px; /* You can set the dimensions to whatever you want */
+    height: 150;
+    object-fit: cover;
+    padding-top: 10%;
+}
+
+.footer-enduro{
+    background-color: black;
+}
+
+
