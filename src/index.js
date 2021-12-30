@@ -9,9 +9,11 @@ import {
 import App from './App';
 import ContactUs from './ContactUs.js';
 import reportWebVitals from './reportWebVitals';
+import NavBar from './NavBar.js';
 
 ReactDOM.render(
   <BrowserRouter>
+    <NavBar />
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/contactus" element={<ContactUs />} />

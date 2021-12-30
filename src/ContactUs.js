@@ -19,9 +19,7 @@ export const ContactUs = () => {
   };
 
   return (
-   <><React.Fragment>
-      <NavBar />
-    </React.Fragment>
+   <>
     
     
     <form ref={form} onSubmit={sendEmail}>
