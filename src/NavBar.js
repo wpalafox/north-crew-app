@@ -34,9 +34,9 @@ export default function NavBar() {
                         </ul>
 
                        <ul class="navbar-nav ms-auto">
-                            <li className="nav-item"><a className="nav-link" href="https://www.facebook.com/epduro/"  target="_blank"><i class="fab fa-facebook"></i></a></li>
+                            <li className="nav-item"><a className="nav-link" href="https://www.facebook.com/epduro/"  target="_blank"><i className="fab fa-facebook"></i></a></li>
 
-                            <li className="nav-item"><a className="nav-link" href="https://www.instagram.com/ependuro/"  target="_blank"><i class="fab fa-instagram"></i></a></li>
+                            <li className="nav-item"><a className="nav-link" href="https://www.instagram.com/ependuro/"  target="_blank"><i className="fab fa-instagram"></i></a></li>
 
 
                         </ul>

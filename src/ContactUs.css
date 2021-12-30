@@ -3,13 +3,27 @@ form {
     padding-left: 3%;
     padding-right: 3%;
 
-background-color: #282c34;
-  min-height: 100vh;
+    background-color: #282c34;
+    min-height: 100vh;
   
  
-  font-size: calc(10px + 2vmin);
-  color: white;
+    font-size: calc(10px + 2vmin);
+    color: white;
     
+
+
+
+}
+
+.fa-facebook{
+    color: rgb(66, 103, 178) ;
+
+
+
+}
+
+.fa-instagram{
+    color: rgb(253, 29, 29) ;
 
 
 
