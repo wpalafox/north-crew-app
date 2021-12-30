@@ -78,6 +78,13 @@ export default function Footer() {
                 
             </div>
 
+            <div className="row">
+                <div className="col-sm-6">
+                    <p id='copyright'>Copyright © 2022 MEROL RACING LLC. All rights reserved.</p>
+                </div>
+                
+            </div>
+
             
         
         

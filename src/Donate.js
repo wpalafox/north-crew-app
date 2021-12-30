@@ -12,7 +12,7 @@ export default function Donate() {
       <header className="Donate-header">
         <img src={ep_logo} className="App-logo pulse" alt="logo" />
         <p>
-            Local EP mtb riders looking to build our community through promoting racing events
+            Local EP MTB riders building our community through promoting racing events and trail maintenance
         </p>
         <a
           className="App-link"

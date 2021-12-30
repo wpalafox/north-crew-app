@@ -10,3 +10,8 @@
 }
 
 
+#copyright{
+    display: flex;
+    align-items: center;
+    color: tomato;
+}

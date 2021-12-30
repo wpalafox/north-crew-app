@@ -23,7 +23,7 @@ export const ContactUs = () => {
     
     
     <form ref={form} onSubmit={sendEmail}>
-        <p>Slide in our DMs or send an email!</p>
+        <p>Hit up our socials or send an email!</p>
         
         <div className='form-group row'>
             <div class="col-sm-1">
@@ -64,7 +64,7 @@ export const ContactUs = () => {
 
         <div className="form-group row">
         <div class="col-sm-15">
-            <input type="submit" value="Send" />
+            <input type="submit" value="Send It!" />
         </div>
         </div>
     </form></>
