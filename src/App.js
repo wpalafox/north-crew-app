@@ -1,9 +1,10 @@
 import React, { Component }  from 'react';
 
 import './App.css';
-import NavBar from './NavBar.js'
+
 import ep_logo from './ep_enduro_logo.svg';
 import background_ep from './pics/ep_enduro_background.jpg';
+
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
    
       <header className="App-header">
         <img src={ep_logo} className="App-logo pulse" alt="logo" />
+        
         <p>
         An Organization Founded and Supported by Local Mountain Bike Riders.
         </p>

@@ -1,6 +1,5 @@
 import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
-import NavBar from './NavBar.js';
 import './ContactUs.css';
 
 
@@ -10,7 +9,7 @@ export const ContactUs = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_rehh9ot', 'template_k32hyuk', form.current, 'user_Ht2OpjaH11GYVqzeUTs6d')
+    emailjs.sendForm('service_qagm5a2', 'template_e3px2j7', form.current, 'user_CWdJOLLP4bbWJ6XGnW9ZG')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -23,6 +22,8 @@ export const ContactUs = () => {
     
     
     <form ref={form} onSubmit={sendEmail}>
+        
+        
         <p>Hit up our socials or send an email!</p>
         
         <div className='form-group row'>
@@ -49,7 +50,7 @@ export const ContactUs = () => {
         <div className="form-group row">
             <label for="staticEmail" class="col-sm-2 col-form-label">Your Email</label>
             <div class="col-sm-10">
-                <input type="email" name="user_email"  />
+                <input type="email" name="user_email" placeholder='john@shredsalot.com'  />
             </div>
 
         </div>
@@ -57,7 +58,7 @@ export const ContactUs = () => {
         <div className="form-group row">
             <label for="staticMessage" class="col-sm-2 col-form-label">Message</label>
             <div class="col-sm-10">
-                <textarea name="message"  />
+                <textarea name="message" placeholder='How can I help out with the upcomming races?'   />
             </div>
 
         </div>

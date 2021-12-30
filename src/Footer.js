@@ -13,7 +13,7 @@ import bmba_logo from './pics/sponsor-bmba.png';
 import handske_logo from './pics/sponsor-handske.png';
 import merol_logo from  './pics/sponsor-merol.svg';
 import shock_logo from './pics/The_shock_lab_black_logo.svg';
-
+import merol_racing from './pics/merolracing.svg';
 
 
 
@@ -88,9 +88,16 @@ export default function Footer() {
             </div>
 
             <div className="row">
-                <div className="col-6">
+                <div className="col-3">
+                        <img src={merol_racing} className="merol-racing" alt="logo" /> |
+                </div>
+                
+                
+                <div className="col-3">
                     <p id='copyright'>Copyright © 2022 MEROL RACING LLC. All rights reserved.</p>
                 </div>
+
+                
                 
             </div>
 
