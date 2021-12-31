@@ -26,7 +26,7 @@ export default function NavBar() {
                                 <a className="nav-link" href="#">News</a>
                             </li>
                             <li className="nav-item">
-                            <a className="nav-link" href="/contactus">Contact Us</a> 
+                                <a className="nav-link" href="/contactus">Contact Us</a> 
                             </li>
                         <li className="nav-item">
                             <a className="nav-link" href="/donate">Donate</a>
