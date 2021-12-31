@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'stranger_things';
+  src:  url(./stranger_things/Benguiat_Bold.ttf);
+}
+

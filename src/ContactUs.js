@@ -25,7 +25,7 @@ export const ContactUs = () => {
         <div className='container'>
         
         
-        <h2>CONTACT EP ENDURO</h2>
+        <h2 className='victory'>CONTACT EP ENDURO</h2>
         
         <div className='form-group row'>
             <div class="col-2">
