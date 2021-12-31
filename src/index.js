@@ -12,6 +12,7 @@ import reportWebVitals from './reportWebVitals';
 import NavBar from './NavBar.js';
 import Footer from './Footer.js';
 import Donate from './Donate.js';
+import Races from './Races.js';
 
 
 
@@ -21,6 +22,7 @@ ReactDOM.render(
     <NavBar />
     <Routes>
       <Route path="/" element={<App />} />
+      <Route path="/races" element={<Races />} />
       <Route path="/contactus" element={<ContactUs />} />
       <Route path="/donate" element={<Donate />} />
       
