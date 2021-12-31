@@ -12,6 +12,7 @@ function App() {
     <div className="App">
    
       <header className="App-header">
+        <div className='container'>
         <img src={ep_logo} className="App-logo pulse" alt="logo" />
         
         <p>
@@ -30,6 +31,7 @@ function App() {
         >
           What Is Enduro MTB Racing?
         </a>
+        </div>
       </header>
       <img id="home-image" src={background_ep} alt="ep mountain" />
 

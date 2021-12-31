@@ -18,10 +18,11 @@ export const ContactUs = () => {
   };
 
   return (
-   <>
- 
+  
+    <div className='center'>
     
     <form ref={form} onSubmit={sendEmail}>
+        <div className='container'>
         
         
         <h2>CONTACT EP ENDURO</h2>
@@ -76,7 +77,9 @@ export const ContactUs = () => {
             <input type="submit" value="Send It!" />
         </div>
         </div>
-    </form></>
+        </div>
+    </form>
+    </div>
   );
 };
 
