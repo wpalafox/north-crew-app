@@ -24,16 +24,16 @@ export const ContactUs = () => {
     <form ref={form} onSubmit={sendEmail}>
         
         
-        <h2>Hit up our socials or send an email!</h2>
+        <h2>CONTACT EP ENDURO</h2>
         
         <div className='form-group row'>
-            <div class="col-sm-2">
+            <div class="col-2">
                <a target="_blank" href="https://www.facebook.com/epduro/">
                 <i class="fab fa-facebook"  ></i>
                 </a> 
             </div>
 
-            <div class="col-sm-2">
+            <div class="col-2">
             <a target="_blank" href="https://www.instagram.com/ependuro/">  
                 <i class="fab fa-instagram" target="_blank" href="https://www.instagram.com/ependuro/"></i>
             </a>
@@ -55,16 +55,24 @@ export const ContactUs = () => {
 
         </div>
 
+        <div className="form-group row">
+            <label for="staticEmail" class="col-sm-3 col-form-label">Name</label>
+            <div class="col-sm-3">
+                <input type="text" name="user_name" placeholder='John'  />
+            </div>
+
+        </div>
+
         <div className="form-group row" id="message-row">
             <label for="staticMessage" class="col-sm-3 col-form-label">Message</label>
             <div class="col-sm-3">
-                <textarea name="message" placeholder='How can I help out with the upcoming races?'   />
+                <textarea name="message" placeholder='When will the next race happen?'   />
             </div>
 
         </div>
 
         <div className="form-group row">
-        <div class="col-sm-2">
+        <div class="col-sm-2" id="send-button">
             <input type="submit" value="Send It!" />
         </div>
         </div>

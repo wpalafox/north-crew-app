@@ -1,11 +1,13 @@
 import React from 'react';
-import './Donate.js';
+import './Donate.css';
 
 export default function Donate() {
     return (
-        <div className="App">
+        
+            <div className='Donate'>
+                <div className='container'>
    
-                <header className="App-header">
+               
                     
                     <h1>
                     
@@ -20,10 +22,10 @@ export default function Donate() {
                     
                    
                     >
-                    <i className="fas fa-donate fa-5x"></i>
+                    <i className="fab fa-cc-paypal fa-7x"></i>
                     </a>
-                </header>
-      
-    </div>
+            </div>
+        </div>
+    
     )
 }

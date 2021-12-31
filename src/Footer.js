@@ -88,12 +88,10 @@ export default function Footer() {
             </div>
 
             <div className="row">
-                <div className="col-3">
-                        <img src={merol_racing} className="merol-racing" alt="logo" /> |
-                </div>
+               
                 
                 
-                <div className="col-3">
+                <div className="col-12">
                     <p id='copyright'>Copyright © 2022 MEROL RACING LLC. All rights reserved.</p>
                 </div>
 

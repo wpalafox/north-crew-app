@@ -31,7 +31,7 @@ function App() {
           What Is Enduro MTB Racing?
         </a>
       </header>
-      <img id="home" src={background_ep} alt="ep mountain" />
+      <img id="home-image" src={background_ep} alt="ep mountain" />
 
   
       

@@ -12,7 +12,8 @@
 
 #copyright{
     display: flex;
-    align-items: cent;
+    align-items: right;
+    font-size: smaller;
     color: tomato;
 }
 
