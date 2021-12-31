@@ -13,7 +13,7 @@
     position: relative;
     font-family: 'Permanent Marker', cursive;
     font-variant:small-caps;
-    font-size: 300%;
+    font-size: 250%;
     
    
     background-image: -webkit-linear-gradient(#FF0FF8 0%,  #F9F9F7 100%);
@@ -30,7 +30,7 @@ form {
     align-items: left;
     justify-content: left;
     padding-left: 10%;
-
+    
     background-color: #282c34;
     min-height: 100vh;
   
@@ -39,6 +39,15 @@ form {
     color: white;
     
     
+
+
+
+}
+
+.form-group{
+    background-color: black;
+ 
+  
 
 
 

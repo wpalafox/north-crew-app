@@ -3,14 +3,26 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
+  justify-content: left;
   font-size: calc(10px + 2vmin);
   color: white;
+
+
+    
+  
+ 
+  
 }
+
+
 
 .list-group-item{
     background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
 
 
 
@@ -20,9 +32,15 @@
 
 .victory {
     position: relative;
+    padding-bottom: 5%;
+  
     font-family: 'Permanent Marker', cursive;
     font-variant:small-caps;
     font-size: 300%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     
    
     background-image: -webkit-linear-gradient(#FF0FF8 0%,  #F9F9F7 100%);
