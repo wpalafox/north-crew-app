@@ -15,6 +15,7 @@ import Donate from './Donate.js';
 import Races from './Races.js';
 import NotFound from './NotFound.js';
 import Race from './Race.js';
+import Monks from './results_folder/Monks_Mayhem.js'
 
 
 
@@ -25,7 +26,7 @@ ReactDOM.render(
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/races" element={<Races />} />
-      <Route path="/monks_2021" element={<Race />} />
+      <Route path="/monks_2021" element={<Monks />} />
       <Route path="/contactus" element={<ContactUs />} />
       <Route path="/donate" element={<Donate />} />
       <Route path="*" element={<NotFound />} />

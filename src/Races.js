@@ -27,7 +27,7 @@ export default function Races() {
                 <a
                 className="App-link"
                 href={item.link}
-                target="_blank"
+              
                 rel="noopener noreferrer">
                     {item.race}
                 </a>

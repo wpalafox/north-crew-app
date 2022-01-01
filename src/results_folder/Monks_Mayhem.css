@@ -1,0 +1,33 @@
+
+table.tableizer-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.5em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    
+    
+} 
+.tableizer-table td {
+    
+    color: black;
+
+
+    
+    
+    
+  
+    border: 1px solid gold;
+}
+.tableizer-table th {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+
+.monks-mayhem{
+    color: black;
+   
+}
