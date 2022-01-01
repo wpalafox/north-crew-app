@@ -49,7 +49,7 @@ export const ContactUs = () => {
 
 
         <div className="form-group row">
-            <label for="staticEmail" class="col-sm-3 col-form-label">Contact Email</label>
+            <label for="staticEmail" class="col-sm-3 col-form-label">Email</label>
             <div class="col-sm-3">
                 <input type="email" name="user_email" placeholder='john@shredsalot.com'  />
             </div>
