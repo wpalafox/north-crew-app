@@ -13,7 +13,8 @@ import NavBar from './NavBar.js';
 import Footer from './Footer.js';
 import Donate from './Donate.js';
 import Races from './Races.js';
-import NotFound from './NotFound.js'
+import NotFound from './NotFound.js';
+import Race from './Race.js';
 
 
 
@@ -24,6 +25,7 @@ ReactDOM.render(
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/races" element={<Races />} />
+      <Route path="/monks_2021" element={<Race />} />
       <Route path="/contactus" element={<ContactUs />} />
       <Route path="/donate" element={<Donate />} />
       <Route path="*" element={<NotFound />} />
