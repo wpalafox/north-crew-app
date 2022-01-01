@@ -14,13 +14,14 @@ import handske_logo from './pics/sponsor-handske.png';
 import merol_logo from  './pics/sponsor-merol.svg';
 import shock_logo from './pics/The_shock_lab_black_logo.svg';
 import merol_racing from './pics/merolracing.svg';
+import blackground_geo from './pics/black-geometric-wallpaper.jpg'
 
 
 
 
 export default function Footer() {
     return (
-    <div className="footer-enduro">
+    <div className="footer-enduro" style={{ backgroundImage: `url(${blackground_geo})` }} >
         <div className="container">
            
 
