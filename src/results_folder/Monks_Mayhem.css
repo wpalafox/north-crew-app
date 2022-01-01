@@ -1,18 +1,22 @@
 
 table.tableizer-table {
     border-collapse: collapse;
+    height:100vh;
+    overflow-y:scroll;
+    display:block;
     margin: 25px 0;
     font-size: 0.5em;
     font-family: sans-serif;
-    min-width: 400px;
+    max-width: 100vw;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
     
     
 } 
+
 .tableizer-table td {
     
     color: black;
-
+    
 
     
     
@@ -20,10 +24,25 @@ table.tableizer-table {
   
     border: 1px solid gold;
 }
+
+
+
 .tableizer-table th {
     background-color: #009879;
     color: #ffffff;
     text-align: left;
+}
+
+.tableizer-table tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.tableizer-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.tableizer-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
 }
 
 
