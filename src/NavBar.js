@@ -24,7 +24,7 @@ export default function NavBar() {
                                 <a className="nav-link" href="/races">Races</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">News</a>
+                                <a className="nav-link" href="/news">News</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="/contactus">Contact Us</a> 

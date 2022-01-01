@@ -4,11 +4,15 @@ import './Monks_Mayhem.css'
 
 export default function Monks_Mayhem() {
     return (
-        <div>
+        <div className='background-monks'>
+        
+        <div className="monks-mayhem">
               
         <div className='container'>
+            <h1 className='victory'>Monks Mayhem</h1>
+            <h1 className='victory-1'>10/23/2021</h1>
             <table class="tableizer-table">
-                    <thead><tr class="tableizer-firstrow"><th>RaceNumber</th><th>CardNumbers</th><th>Name</th><th>Club</th><th>CourseClass</th><th>RaceTime</th><th>Position</th><th>Status</th><th>BehindTime</th><th>Stage 1 - Monks Mayhem  Time</th><th>Stage 1 - Monks Mayhem  Pos</th><th>Stage 2 - Anna's Dominatrix Time</th><th>Stage 2 - Anna's Dominatrix Pos</th><th>Stage 3 - Black Cat Time</th><th>Stage 3 - Black Cat Pos</th><th>Stage 4 - Hiss & Claw Time</th><th>Stage 4 - Hiss & Claw Pos</th><th>Stage 5 - Vertigo Time</th><th>Stage 5 - Vertigo Pos</th></tr></thead><tbody>
+                    <thead><tr class="tableizer-firstrow"><th>RaceNumber</th><th>CardNumber</th><th>Name</th><th>Club</th><th>Class</th><th>Total Race Time</th><th>Position</th><th>Status</th><th>BehindTime</th><th>S1-Monks Mayhem Time</th><th>S1-Monks Mayhem Pos</th><th>S2-Anna's Dominatrix Time</th><th>S2-Anna's Dominatrix Pos</th><th>S3-Black Cat Time</th><th>S3-Black Cat Pos</th><th>S4-Hiss & Claw Time</th><th>S4-Hiss & Claw Pos</th><th>S5-Vertigo Time</th><th>S5-Vertigo Pos</th></tr></thead><tbody>
                     <tr><td>96</td><td>8032630</td><td>Eddie Sanchez</td><td>North Crew / Shock Lab </td><td>30-39 Men</td><td>21:09.9</td><td>1</td><td>&nbsp;</td><td>&nbsp;</td><td>05:53.0</td><td>1</td><td>06:51.0</td><td>1</td><td>01:21.2</td><td>1</td><td>03:45.5</td><td>1</td><td>03:19.2</td><td>1</td></tr>
                     <tr><td>6</td><td>8032609</td><td>Eric Klauss</td><td>&nbsp;</td><td>30-39 Men</td><td>26:03.2</td><td>2</td><td>&nbsp;</td><td>+4:53.35</td><td>07:33.3</td><td>3</td><td>08:59.4</td><td>2</td><td>01:40.1</td><td>2</td><td>04:09.8</td><td>2</td><td>03:40.6</td><td>2</td></tr>
                     <tr><td>27</td><td>8032615</td><td>Chris beversdorf</td><td>TACOCAT</td><td>30-39 Men</td><td>28:04.6</td><td>3</td><td>&nbsp;</td><td>+6:54.71</td><td>06:46.9</td><td>2</td><td>10:06.5</td><td>3</td><td>02:01.2</td><td>3</td><td>04:49.3</td><td>3</td><td>04:20.6</td><td>3</td></tr>
@@ -47,5 +51,6 @@ export default function Monks_Mayhem() {
             </tbody></table>
             </div>
         </div>
+    </div>
     )
 }

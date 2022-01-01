@@ -25,7 +25,7 @@ export const ContactUs = () => {
         <div className='container'>
         
         
-        <h1 className='victory'>Reach Out to Us</h1>
+        <h1 className='victory'>Reach Out</h1>
         
         <div className='form-group row'>
             <div class="col-2">

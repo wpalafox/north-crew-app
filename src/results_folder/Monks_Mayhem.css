@@ -4,7 +4,7 @@ table.tableizer-table {
     height:100vh;
     overflow-y:scroll;
     display:block;
-    margin: 25px 0;
+  
     font-size: 0.5em;
     font-family: sans-serif;
     max-width: 100vw;
@@ -13,40 +13,88 @@ table.tableizer-table {
     
 } 
 
+.background-monks{
+    background-color: #282c34;
+
+
+
+}
+
 .tableizer-table td {
     
-    color: black;
+    color: white;
+ 
+   
+
+  
     
 
     
     
     
   
-    border: 1px solid gold;
+    border: 1px solid rgba(161, 127, 26);
 }
 
 
 
 .tableizer-table th {
-    background-color: #009879;
-    color: #ffffff;
+    background-color: rgba(161, 127, 26);
+    color: white;
     text-align: left;
 }
 
-.tableizer-table tr {
+.tableizer-table tbody tr {
     border-bottom: 1px solid #dddddd;
+    
+
 }
 
 .tableizer-table tbody tr:nth-of-type(even) {
-    background-color: #f3f3f3;
+    background-color: #282c34;
 }
+
+
+
 
 .tableizer-table tbody tr:last-of-type {
-    border-bottom: 2px solid #009879;
+    border-bottom: 2px solid red;
+}
+
+.tableizer-table{
+    background-color: black;
 }
 
 
-.monks-mayhem{
-    color: black;
+.victory-0 {
+    position: relative;
+    font-family: 'Permanent Marker', cursive;
+    font-variant:small-caps;
+    font-size: 250%;
+    padding-top: 10%;
    
-}
+    
+   
+    background-image: -webkit-linear-gradient(#FF0FF8 0%,  #F9F9F7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    -webkit-filter: drop-shadow(2px 2px 20px #f008b7);
+  }
+
+  .victory-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Permanent Marker', cursive;
+    font-variant:small-caps;
+    font-size: 150%;
+    
+   
+    background-image: -webkit-linear-gradient(#FF0FF8 0%,  #F9F9F7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    -webkit-filter: drop-shadow(2px 2px 20px #f008b7);
+  }
