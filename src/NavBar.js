@@ -1,12 +1,13 @@
 import React from 'react'
 import ep_logo from './ep_enduro_logo.svg';
 import './NavBar.css';
+import blackground_geo from './pics/black-geometric-wallpaper.jpg'
 
 
 export default function NavBar() {
     return (
         <div>
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+            <nav className="navbar navbar-expand-lg navbar-dark bg-dark" style={{ backgroundImage: `url(${blackground_geo})` }}>
                 <div className="container-fluid">
                     <a className="navbar-brand" href="/">
                        EP Enduro

@@ -7,6 +7,7 @@
   justify-content: left;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding-bottom: 10%;
 
 
     
@@ -30,6 +31,16 @@
 
 }
 
+.awesome-slider{
+    padding-bottom: 5%;
+    padding-top: 5%;
+
+}
+
+.image-item{
+    width: 100vw;
+    height: auto;
+}
 .victory {
     position: relative;
     padding-bottom: 5%;
