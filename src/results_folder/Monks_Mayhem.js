@@ -9,8 +9,9 @@ export default function Monks_Mayhem() {
         <div className="monks-mayhem">
               
         <div className='container'>
-            <h1 className='victory'>Monks Mayhem</h1>
-            <h1 className='victory-1'>10/23/2021</h1>
+            <h1 className='gold-0'>Monks Mayhem</h1>
+            <h1 className='gold-1'>10/23/2021</h1>
+            
             <table class="tableizer-table">
                     <thead><tr class="tableizer-firstrow"><th>RaceNumber</th><th>CardNumber</th><th>Name</th><th>Club</th><th>Class</th><th>Total Race Time</th><th>Position</th><th>Status</th><th>BehindTime</th><th>S1-Monks Mayhem Time</th><th>S1-Monks Mayhem Pos</th><th>S2-Anna's Dominatrix Time</th><th>S2-Anna's Dominatrix Pos</th><th>S3-Black Cat Time</th><th>S3-Black Cat Pos</th><th>S4-Hiss & Claw Time</th><th>S4-Hiss & Claw Pos</th><th>S5-Vertigo Time</th><th>S5-Vertigo Pos</th></tr></thead><tbody>
                     <tr><td>96</td><td>8032630</td><td>Eddie Sanchez</td><td>North Crew / Shock Lab </td><td>30-39 Men</td><td>21:09.9</td><td>1</td><td>&nbsp;</td><td>&nbsp;</td><td>05:53.0</td><td>1</td><td>06:51.0</td><td>1</td><td>01:21.2</td><td>1</td><td>03:45.5</td><td>1</td><td>03:19.2</td><td>1</td></tr>

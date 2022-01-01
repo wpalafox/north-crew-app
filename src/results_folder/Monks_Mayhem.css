@@ -66,35 +66,38 @@ table.tableizer-table {
 }
 
 
-.victory-0 {
-    position: relative;
-    font-family: 'Permanent Marker', cursive;
-    font-variant:small-caps;
-    font-size: 250%;
-    padding-top: 10%;
-   
-    
-   
-    background-image: -webkit-linear-gradient(#FF0FF8 0%,  #F9F9F7 100%);
+.gold-0 {
+    background: linear-gradient(to bottom, #cfc09f 22%,#634f2c 24%, #cfc09f 26%, #cfc09f 27%,#ffecb3 40%,#3a2c0f 78%); 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin: 0;
-    -webkit-filter: drop-shadow(2px 2px 20px #f008b7);
-  }
+    color: #fff;
+font-family: 'Playfair Display', serif;
+    position: relative;
+	text-transform: uppercase;	
+	font-size: 9vw;
+	margin: 0;
+	font-weight: 400;
 
-  .victory-1 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-family: 'Permanent Marker', cursive;
-    font-variant:small-caps;
-    font-size: 150%;
-    
-   
-    background-image: -webkit-linear-gradient(#FF0FF8 0%,  #F9F9F7 100%);
+  }
+
+  .gold-1 {
+    background: linear-gradient(to bottom, #cfc09f 22%,#634f2c 24%, #cfc09f 26%, #cfc09f 27%,#ffecb3 40%,#3a2c0f 78%); 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin: 0;
-    -webkit-filter: drop-shadow(2px 2px 20px #f008b7);
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    position: relative;
+	text-transform: uppercase;	
+	font-size: 3vw;
+	margin: 0;
+	font-weight: 400;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
