@@ -10,7 +10,7 @@ export default function Monks_Mayhem() {
               
         <div className='container'>
             <h1 className='gold-0'>Monks Mayhem</h1>
-            <h1 className='gold-1'>10/23/2021</h1>
+            
             
             <table class="tableizer-table">
                     <thead><tr class="tableizer-firstrow"><th>RaceNumber</th><th>CardNumber</th><th>Name</th><th>Club</th><th>Class</th><th>Total Race Time</th><th>Position</th><th>Status</th><th>BehindTime</th><th>S1-Monks Mayhem Time</th><th>S1-Monks Mayhem Pos</th><th>S2-Anna's Dominatrix Time</th><th>S2-Anna's Dominatrix Pos</th><th>S3-Black Cat Time</th><th>S3-Black Cat Pos</th><th>S4-Hiss & Claw Time</th><th>S4-Hiss & Claw Pos</th><th>S5-Vertigo Time</th><th>S5-Vertigo Pos</th></tr></thead><tbody>
