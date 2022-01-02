@@ -1,17 +1,19 @@
-.navbar-brand{
+.navbar-dark .navbar-brand{
 
     max-width: 100%;  
     height: auto;
-    font-family: 'stranger_things';
+    font-family: 'big_mountain';
     text-decoration:none;
-    color: #ffdf00;
+    color: #ffdd00;
+    
 
    
     
 }
 
 .nav-item{
-    font-family: 'stranger_things';
+    font-family: 'big_mountain';
+
 
 }
   

@@ -12,8 +12,10 @@ code {
     monospace;
 }
 
+
+
 @font-face {
-  font-family: 'stranger_things';
-  src:  url(./stranger_things/Benguiat_Bold.ttf);
+  font-family: 'big_mountain';
+  src:  url(./fonts/BigMountain-PKZw2.ttf);
 }
 

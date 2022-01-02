@@ -5,13 +5,14 @@ import './App.css';
 import ep_logo from './ep_enduro_logo.svg';
 import hero_image from './pics/home_image_stoked.jpg';
 import background_ep from './pics/ep_enduro_background.jpg';
+import mountain_header_hero from './pics/mountain_header_ependuro.jpg';
 
 
 
 function App() {
   return (
     <div className="App">
-       <img id="hero-image" src={hero_image} alt="ep mountain" />
+       <img id="hero-image" src={mountain_header_hero} alt="ep mountain"></img>
         <header className="App-header">
           <div className='container'>
         
