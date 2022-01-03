@@ -1,4 +1,6 @@
 import React, { Component }  from 'react';
+import { render } from "react-dom";
+import { Parallax, Background } from "react-parallax";
 
 import './App.css';
 
@@ -13,7 +15,15 @@ import rocky_mountain_hero from './pics/El_Paso_Franklin_Mountains_and_Scenic_Dr
 function App() {
   return (
     <div className="App">
-       <img id="hero-image" src={rocky_mountain_hero} alt="ep mountain"></img>
+
+    
+            <img id="hero-image" src={rocky_mountain_hero} alt="ep mountain"></img>
+        
+      
+       
+        
+        
+        
         <header className="App-header">
           <div className='container'>
         
