@@ -16,6 +16,8 @@ import Races from './Races.js';
 import NotFound from './NotFound.js';
 import Race from './Race.js';
 import Monks from './results_folder/Monks_Mayhem.js'
+import Dog from './results_folder/lost_enduro.js'
+import Franklin from './results_folder/franklin.js'
 
 
 
@@ -29,7 +31,10 @@ ReactDOM.render(
       <Route path="/monks_2021" element={<Monks />} />
       <Route path="/contactus" element={<ContactUs />} />
       <Route path="/donate" element={<Donate />} />
+      <Route path="/lost_dog_2021" element={<Dog />} />
+      <Route path="/franklin_2021" element={<Franklin />} />
       <Route path="*" element={<NotFound />} />
+
       
     
     
