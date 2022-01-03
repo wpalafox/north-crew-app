@@ -49,9 +49,9 @@
     height: auto;
 }
 .victory {
-    position: relative;
-    padding-bottom: 5%;
   
+    padding-bottom: 5%;
+    padding-top: 10%;
     font-family: 'Permanent Marker', cursive;
     font-variant:small-caps;
     font-size: 300%;

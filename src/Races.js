@@ -57,7 +57,7 @@ export default function Races() {
         <div id="race-list" className='container'>
           
 
-       
+        <h1 className='victory'>2021 Season</h1>
         <ul id="race-list-test" className="list-group test">
             {race_links}
                       
