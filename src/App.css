@@ -1,6 +1,15 @@
 .App {
   text-align: center;
+
+ 
   
+}
+
+.introduction{
+  text-align: left;
+}
+.App-link{
+  text-align: left;
 }
 
 #home-image{
@@ -15,12 +24,20 @@
 
 }
 
+.seriesheader{
+  font-weight: bold;
+  text-align: left;
+}
 
+li{
+  text-align: left;
+}
 
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -45,7 +62,12 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
+
+
+
 
 .App-link {
   color: #61dafb;

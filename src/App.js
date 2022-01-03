@@ -30,27 +30,51 @@ function App() {
           
           <img src={ep_logo} className="App-logo pulse" alt="logo" />
           
-          <p>
-          An Organization Founded and Supported by Local Mountain Bike Riders.
-          </p>
-          <p>
-          We Promote and Organize MTB Enduro Style Race Events, and Trail Maintenance Activities.
-          </p>
+              <p className='introduction'>
+              The EP Enduro series features a variety of Enduro style mountain bike racing in El Paso, Texas. 
+              We cater our race categories to everyone from beginners to experts. Additionally, we organize trail
+              maintenance events to prepare for the races.
+    
+              </p>
+              <a
+                  className="App-link"
+                  href="https://www.youtube.com/watch?v=wWH_BSRiX0U"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                What Is Enduro MTB Racing?
+              </a>
+
+              <div className='seriesPanel'>
+                    <p className='seriesheader'>
+                    Series 1:
+                    </p>
+                  <ul className='AtAGlance'>
+                      <li>Monks Mayhem 10/23/2021 </li> 
+                      <li>Lost Dog Enduro 11/21/2021  </li>
+                     
+                      <li>Franklin Mountains 12/18/2021 </li>
+                      
+                      <li>Rough Rider Championship TBA </li>
+
+                  </ul>
+               
+             
+
+              </div> 
+              
+              
         
       
-          <a
-            className="App-link"
-            href="https://www.youtube.com/watch?v=wWH_BSRiX0U"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            What Is Enduro MTB Racing?
-          </a>
+         
           </div>
         </header>
         <img id="home-image" src={background_ep} alt="ep mountain" />
 
-    
+  
+        
+        
+           
       
     </div>
   );
