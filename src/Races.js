@@ -54,11 +54,11 @@ export default function Races() {
 
         <img id="results-image" src={results_image} alt="ep mountain results"></img>
         
-        <div className='container'>
+        <div id="race-list" className='container'>
           
 
        
-        <ul className="list-group">
+        <ul id="race-list-test" className="list-group test">
             {race_links}
                       
         </ul>
