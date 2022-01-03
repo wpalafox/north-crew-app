@@ -59,7 +59,7 @@ function App() {
 
               <div className='seriesPanel'>
                     <p className='seriesheader'>
-                    Series 1:
+                    2021 Season:
                     </p>
                   <ul className='AtAGlance'>
                       <li>Monks Mayhem | 10/23/2021 </li> 

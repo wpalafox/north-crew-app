@@ -7,12 +7,12 @@ export default function Donate() {
             <div className='Donate'>
                 <div className='container'>
    
-               
+                    <h1 className='victory'>Donate</h1>
                     
-                    <h1>
+                    <p>
                     
-                    Donate and Help us Organize more Races and Ensure the Longevity and Sustainability of our Trail Systems.
-                    </h1>
+                    Help us Organize more Races and Ensure the Longevity and Sustainability of our Trail Systems.
+                    </p>
                     
                 
                 
