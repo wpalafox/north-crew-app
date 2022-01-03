@@ -20,7 +20,7 @@ import pablo_hustle from './pics/pablo_hustling.jpg';
 export default function Races() {
     
     const data = [
-        { race: 'Roughrider Canyon | TBA', link: "/asdf" },
+        { race: 'Roughrider Canyon | TBA', link: "/rider_2021" },
         { race: 'Franklin Mountains | 12/18/2021 ', link: "/franklin_2021" },
         { race: 'Lost Dog Enduro | 11/21/2021 ', link: "/lost_dog_2021"},
         { race: 'Monks Mayhem | 10/23/2021', link: "/monks_2021" },
