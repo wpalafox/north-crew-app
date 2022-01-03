@@ -1,6 +1,6 @@
 import React, { Component }  from 'react';
-import { render } from "react-dom";
-import { Parallax, Background } from "react-parallax";
+
+
 
 import './App.css';
 
