@@ -19,3 +19,8 @@ code {
   src:  url(./fonts/BigMountain-PKZw2.ttf);
 }
 
+@font-face {
+  font-family: 'rock_biter';
+  src:  url(./fonts/Rockbiter-MvwB.ttf);
+}
+
