@@ -8,6 +8,14 @@ import podium_mo from './pics/podium_mo_slider.jpg';
 import genesis_slider from './pics/genesis_slider.jpg';
 import steezy_slide from './pics/podium_steezy.jpg';
 import luis_podium from './pics/podium_luis.jpg';
+import female_podium from './pics/a_podium.jpg';
+import mosco_ride from './pics/mosco_enduro.jpg';
+import arnold_podium from './pics/arnold_podium.jpg';
+import pablo_hustle from './pics/pablo_hustling.jpg';
+
+
+
+
 
 export default function Races() {
     
@@ -53,18 +61,24 @@ export default function Races() {
         </ul>
 
 
+    
+            
+        </div>
+
         <AwesomeSlider className="awesome-slider" animation='cubeAnimation'>
             <div className="image-item" data-src={podium_mo} />
             <div className="image-item" data-src={max_photo} />
+            <div className="image-item" data-src={female_podium} />
             <div className="image-item" data-src={steezy_slide} />
-            <div className="image-item" data-src={jump_photo} />
+          
+           
+            <div className="image-item" data-src={arnold_podium} />
             <div className="image-item" data-src={genesis_slider} />
+            <div className="image-item" data-src={mosco_ride} />
           
             <div className="image-item" data-src={luis_podium} />
           
         </AwesomeSlider>
-            
-        </div>
     
         
         
