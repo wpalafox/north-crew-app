@@ -8,6 +8,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
   padding-bottom: 10%;
+  
 
 
     
@@ -16,7 +17,10 @@
   
 }
 
-
+ul{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
 
 .list-group-item{
     background-color: black;

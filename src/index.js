@@ -14,7 +14,7 @@ import Footer from './Footer.js';
 import Donate from './Donate.js';
 import Races from './Races.js';
 import NotFound from './NotFound.js';
-import Race from './Race.js';
+
 import Monks from './results_folder/Monks_Mayhem.js'
 import Dog from './results_folder/lost_enduro.js'
 import Franklin from './results_folder/franklin.js'

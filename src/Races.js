@@ -12,6 +12,7 @@ import female_podium from './pics/a_podium.jpg';
 import mosco_ride from './pics/mosco_enduro.jpg';
 import arnold_podium from './pics/arnold_podium.jpg';
 import pablo_hustle from './pics/pablo_hustling.jpg';
+import results_image from './pics/mountain_image_edited.jpg';
 
 
 
@@ -50,9 +51,11 @@ export default function Races() {
    
         
      <div className='race_list'> 
+
+        <img id="results-image" src={results_image} alt="ep mountain results"></img>
         
         <div className='container'>
-            <h1 className='victory'>Races</h1>
+          
 
        
         <ul className="list-group">
