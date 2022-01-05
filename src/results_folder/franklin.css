@@ -26,6 +26,9 @@ table.tableizer-table {
     
     color: white;
     padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     border: 1px solid rgba(161, 127, 26);
 }
 
