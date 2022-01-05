@@ -41,7 +41,7 @@ function App() {
           <div className='container'>
         
           
-          
+          <img src={ep_logo} className="App-logo pulse" alt="logo" />
           
               <p className='introduction'>
               The EP Enduro series features a variety of Enduro style mountain bike racing in El Paso, Texas. 
