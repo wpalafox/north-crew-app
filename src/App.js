@@ -28,8 +28,9 @@ function App() {
   return (
     <div className="App">
 
+
     
-            <img id="hero-image" src={rocky_mountain_hero} alt="ep mountain"></img>
+            <a target="_blank" title="Dicklyon, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:El_Paso_Franklin_Mountains_and_Scenic_Drive_aerial.jpg"><img id="hero-image" src={rocky_mountain_hero} alt="ep mountain" ></img></a>
         
       
        
@@ -45,10 +46,7 @@ function App() {
               <p className='introduction'>
               The EP Enduro series features a variety of Enduro style mountain bike racing in El Paso, Texas. 
               We design our race categories for everyone (e.g. gender, age, skill level, etc.). Additionally, we organize trail
-              maintenance events to prepare for the races.
-    
-              </p>
-              <a
+              maintenance events to prepare for the races.  <a
                   className="App-link"
                   href="https://www.youtube.com/watch?v=wWH_BSRiX0U"
                   target="_blank"
@@ -56,6 +54,9 @@ function App() {
                 >
                 What Is Enduro MTB Racing?
               </a>
+    
+              </p>
+             
 
               <div className='seriesPanel'>
                     <p className='seriesheader'>
