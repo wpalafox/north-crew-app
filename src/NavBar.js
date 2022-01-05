@@ -10,7 +10,7 @@ export default function NavBar() {
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark" style={{ backgroundImage: `url(${blackground_geo})` }}>
                 <div className="container-fluid">
                     <a className="navbar-brand" href="/">
-                       EP Enduro
+                       <img id="nav-logo" src={ep_logo} alt="ep enduro logo" />
                     </a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
