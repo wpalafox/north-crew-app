@@ -20,6 +20,14 @@ table.tableizer-table {
 
 }
 
+.downloadLink{
+    font-size: calc(10px + 2vmin);
+    color: #61dafb;
+    min-height: 100vh;
+
+
+}
+
 .tableizer-table td {
     
     color: white;
@@ -49,6 +57,25 @@ table.tableizer-table {
     border-bottom: 1px solid #dddddd;
     
 
+}
+
+.tableizer-table thead th {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.tableizer-table thead{
+    position:sticky;
+    top: 0 ;
+}
+
+
+
+
+
+
+.tableizer-table thead th:nth-of-type(even) {
+    background-color: #0070ba;
 }
 
 .tableizer-table tbody tr:nth-of-type(even) {

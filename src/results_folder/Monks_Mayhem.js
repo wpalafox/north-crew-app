@@ -799,7 +799,7 @@ export default function Monks_Mayhem() {
                     <tr><td>34</td><td>8032674</td><td>Wyatt Ivey </td><td>Crazy Cat </td><td>JR MEN- 5 spots</td><td>24:32.6</td><td>1</td><td>&nbsp;</td><td>&nbsp;</td><td>06:05.4</td><td>1</td><td>09:01.6</td><td>1</td><td>01:42.2</td><td>1</td><td>03:51.0</td><td>1</td><td>03:52.4</td><td>1</td></tr>
                     <tr><td>29</td><td>8032625</td><td>Alex Arellano </td><td>The Shock Lab </td><td>JR MEN- 5 spots</td><td>26:43.5</td><td>2</td><td>&nbsp;</td><td>+2:10.94</td><td>06:27.5</td><td>2</td><td>09:31.4</td><td>2</td><td>01:58.9</td><td>2</td><td>04:51.5</td><td>2</td><td>03:54.2</td><td>2</td></tr>
             </tbody></table>
-            <CSVLink data={csvData}>Download Results</CSVLink>;
+            <CSVLink className="downloadLink" data={csvData}>Download Results</CSVLink>;
             </div>
         </div>
     </div>
