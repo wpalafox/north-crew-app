@@ -1,5 +1,11 @@
+.background_black{
+  background-color: #282c34;
+
+}
+
 .App {
   text-align: center;
+  background-color: #282c34;
 
  
   
@@ -21,6 +27,14 @@
   width: 100vw;
   height: auto;
  
+
+}
+
+
+.awesome-slider{
+  
+
+  background-color: #282c34;
 
 }
 

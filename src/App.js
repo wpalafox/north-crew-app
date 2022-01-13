@@ -82,7 +82,21 @@ function App() {
          
           </div>
         </header>
-        <img id="home-image" src={background_ep} alt="ep mountain" />
+        <AwesomeSlider className="awesome-slider" animation='cubeAnimation'>
+            <div className="image-item" data-src={podium_mo} />
+            <div className="image-item" data-src={max_photo} />
+            <div className="image-item" data-src={female_podium} />
+            <div className="image-item" data-src={steezy_slide} />
+          
+           
+            <div className="image-item" data-src={arnold_podium} />
+            <div className="image-item" data-src={genesis_slider} />
+            <div className="image-item" data-src={mosco_ride} />
+          
+            <div className="image-item" data-src={luis_podium} />
+          
+        </AwesomeSlider>
+        
       
 
   

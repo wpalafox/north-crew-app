@@ -71,7 +71,7 @@ export const ContactUs = () => {
         <div className="form-group row" id="message-row">
             <label for="staticMessage" class="col-sm-3 col-form-label">Message</label>
             <div class="col-sm-3">
-                <textarea name="message" placeholder='When will the next race happen?'   />
+                <textarea name="message" placeholder='I have questions about my recent registration'   />
             </div>
 
         </div>
