@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
 import './ContactUs.css';
+import header_contactus from './pics/contact_us_header.jpg';
 
 
 export const ContactUs = () => {
@@ -21,11 +22,14 @@ export const ContactUs = () => {
   
     <div className='center'>
     
+    <img className="contact-us-image" src={header_contactus} alt="contact us header"></img>
+
+
     <form ref={form} onSubmit={sendEmail}>
         <div className='container'>
         
         
-        <h1 className='victory'>Reach Out</h1>
+        
         
         <div className='form-group row'>
             <div class="col-2">

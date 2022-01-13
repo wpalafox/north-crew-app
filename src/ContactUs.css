@@ -9,6 +9,11 @@
 
 }
 
+.contact-us-image{
+  width: 100vw;
+  height: auto;
+}
+
 .victory {
     position: relative;
     font-family: 'Permanent Marker', cursive;
