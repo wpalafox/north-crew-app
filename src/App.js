@@ -26,6 +26,7 @@ import pablo_hustle from './pics/pablo_hustling.jpg';
 
 function App() {
   return (
+    <div className="background_black"> 
     <div className="App">
 
 
@@ -104,6 +105,7 @@ function App() {
         
            
       
+    </div>
     </div>
   );
 }
