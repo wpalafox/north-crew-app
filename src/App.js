@@ -83,6 +83,7 @@ function App() {
          
           </div>
         </header>
+        <div className='awesome-slider-div'>
         <AwesomeSlider className="awesome-slider" animation='cubeAnimation'>
             <div className="image-item" data-src={podium_mo} />
             <div className="image-item" data-src={max_photo} />
@@ -97,6 +98,7 @@ function App() {
             <div className="image-item" data-src={luis_podium} />
           
         </AwesomeSlider>
+        </div>
         
       
 
