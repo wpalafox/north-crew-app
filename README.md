@@ -1,3 +1,24 @@
+
+# EP Enduro: 
+
+This website was built using React.js, Bootstrap 4, and Email.js
+
+
+# Summary:
+The website gives users an overview of the organization, pictures of events, displays results in beautiful html tables, and allows the user to contact the event organizer via contact form, or through social media channels.
+
+
+# Author: 
+William Palafox
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
