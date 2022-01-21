@@ -2,6 +2,8 @@
 # EP Enduro: 
 
 This website was built using React.js, Bootstrap 4, and Email.js
+Click the link below to see current version and do not worry if the website does not load immediately; it takes more time for free hosting. 
+http://ep-enduro.herokuapp.com/ 
 
 
 # Summary:
