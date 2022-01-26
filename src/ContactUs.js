@@ -63,7 +63,7 @@ export const ContactUs = () => {
         <div className="form-group row">
             <label for="staticEmail" class="col-sm-3 col-form-label">Name</label>
             <div class="col-sm-3">
-                <input type="text" name="user_name" placeholder='John'  />
+                <input type="text" name="user_name" placeholder='John Doe'  />
             </div>
 
         </div>
@@ -71,7 +71,7 @@ export const ContactUs = () => {
         <div className="form-group row" id="message-row">
             <label for="staticMessage" class="col-sm-3 col-form-label">Message</label>
             <div class="col-sm-3">
-                <textarea name="message" placeholder='I have questions about my recent registration'   />
+                <textarea name="message" placeholder='I have questions about my recent registration and/or I would like to volunteer for the next event'   />
             </div>
 
         </div>
