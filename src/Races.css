@@ -27,6 +27,7 @@
 
 .list-group-item{
     background-color: black;
+    padding-top: 2%;
     display: flex;
     flex-direction: column;
     align-items: left;
