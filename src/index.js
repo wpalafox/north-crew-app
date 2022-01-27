@@ -19,6 +19,7 @@ import Monks from './results_folder/Monks_Mayhem.js'
 import Dog from './results_folder/lost_enduro.js'
 import Franklin from './results_folder/franklin.js'
 import Rider from './results_folder/rough_rider.js'
+import News from './News.js'
 
 
 
@@ -29,6 +30,8 @@ ReactDOM.render(
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/races" element={<Races />} />
+      <Route path="/news" element={<News />} />
+
       <Route path="/monks_2021" element={<Monks />} />
       <Route path="/contactus" element={<ContactUs />} />
       <Route path="/donate" element={<Donate />} />

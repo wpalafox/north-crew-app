@@ -22,7 +22,7 @@ export const ContactUs = () => {
   
     <div className='center'>
     
-    <img className="contact-us-image" src={header_contactus} alt="contact us header"></img>
+    <img className="contact-us-image" id="contact-us-pic" src={header_contactus} alt="contact us header"></img>
 
     
     <form ref={form} onSubmit={sendEmail}>
