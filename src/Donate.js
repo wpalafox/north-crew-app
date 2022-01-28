@@ -14,7 +14,7 @@ export default function Donate() {
                     
                     <h2>
                     
-                    Help us organize more enduro races! And ensure the longevity and sustainability of our trail systems.
+                    If you can afford to donate: Help us organize more enduro races! And ensure the longevity and sustainability of our trail systems.
                     </h2>
                     
                 
