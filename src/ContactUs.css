@@ -44,10 +44,10 @@ form {
     flex-direction: column;
     align-items: left;
     justify-content: left;
-    padding-left: 8%;
+    padding-left: 2%;
     padding-bottom: 2%;
     background-color: black;
-    padding-right: 8%;
+    padding-right: 2%;
     border: 2px solid rgba(161, 127, 26);
     border-radius: 25px;
    
