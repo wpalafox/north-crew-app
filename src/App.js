@@ -69,7 +69,7 @@ function App() {
                      
                       <li>Franklin Mountains | 12/18/2021 </li>
                       
-                      <li><b>Rough Rider Championship | 2/20/2022</b> </li>
+                      <li id="register"><b>Rough Rider Championship | 2/20/2022</b> <a href="https://www.bikereg.com/rrbash?fbclid=IwAR15ysZOzmGVdrfuewZBzFYutW9Kc1Pe2enTdEnDtvfsEMuHeTtqkbpEUHc"  target="_blank" class="btn btn-info" role="button">REGISTER</a></li>
 
                   </ul>
                
