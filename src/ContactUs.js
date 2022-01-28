@@ -69,7 +69,7 @@ export const ContactUs = () => {
         </div>
 
         <div className="form-group row" id="message-row">
-            <label for="staticMessage" class="col-sm-3 col-form-label"><b>Message</b>/label>
+            <label for="staticMessage" class="col-sm-3 col-form-label"><b>Message</b></label>
             <div class="col-sm-3">
                 <textarea name="message" placeholder='I have questions about my recent registration or how could I volunteer for the next event?'   />
             </div>
