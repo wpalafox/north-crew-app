@@ -39,7 +39,7 @@ function App() {
         
         
         <header className="App-header">
-          <div className='container'>
+          <div id='home-page' className='container'>
         
           
           <img src={ep_logo} className="App-logo pulse" alt="logo" />
