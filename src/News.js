@@ -24,6 +24,7 @@ export default function News() {
                 <a
                 className="App-link"
                 href={item.link}
+                target="_blank"
               
                 rel="noopener noreferrer">
                     {item.news}
