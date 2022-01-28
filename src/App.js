@@ -69,7 +69,7 @@ function App() {
                      
                       <li>Franklin Mountains | 12/18/2021 | <a href="/franklin_2021" class="btn btn-info" role="button"><b>RESULTS</b></a> </li>
                       
-                      <li id="register"><b>Rough Rider Championship | 2/20/2022 | </b> <a href="https://www.bikereg.com/rrbash?fbclid=IwAR15ysZOzmGVdrfuewZBzFYutW9Kc1Pe2enTdEnDtvfsEMuHeTtqkbpEUHc"  target="_blank" class="btn btn-danger" role="button"><b>REGISTER</b></a></li>
+                      <li id="register"><b>Roughrider Canyon | 2/20/2022 | </b> <a href="https://www.bikereg.com/rrbash?fbclid=IwAR15ysZOzmGVdrfuewZBzFYutW9Kc1Pe2enTdEnDtvfsEMuHeTtqkbpEUHc"  target="_blank" class="btn btn-danger" role="button"><b>REGISTER</b></a></li>
 
                   </ul>
                
