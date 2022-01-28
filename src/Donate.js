@@ -8,20 +8,20 @@ export default function Donate() {
             <img className="donate-image" src={donate_header} alt="donate header"></img>
             <div className='Donate'>
                  
-                <div className='container'>
+                <div id= "blackbox" className='container'>
    
                
                     
-                    <p>
+                    <h2>
                     
-                    Help us Organize more Races and Ensure the Longevity and Sustainability of our Trail Systems.
-                    </p>
+                    Help us organize more enduro races! And ensure the longevity and sustainability of our trail systems.
+                    </h2>
                     
                 
                 
                     <a
                     
-                    href="https://www.paypal.com/paypalme/ependuro"
+                    href="https://www.paypal.com/paypalme/ependuro"  target="_blank"
                     
                    
                     >

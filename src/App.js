@@ -69,7 +69,7 @@ function App() {
                      
                       <li>Franklin Mountains | 12/18/2021 </li>
                       
-                      <li>Rough Rider Championship | TBA </li>
+                      <li><b>Rough Rider Championship | 2/20/2022</b> </li>
 
                   </ul>
                
