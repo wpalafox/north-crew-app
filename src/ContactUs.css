@@ -39,15 +39,15 @@
   }
 
 form {
-    padding-top: 5%;
+    padding-top: 2%;
     display: flex;
     flex-direction: column;
     align-items: left;
     justify-content: left;
-    padding-left: 10%;
-    padding-bottom: 10%;
+    padding-left: 8%;
+    padding-bottom: 2%;
     background-color: black;
-    padding-right: 15%;
+    padding-right: 8%;
     border: 2px solid rgba(161, 127, 26);
     border-radius: 25px;
    
