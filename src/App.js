@@ -61,13 +61,13 @@ function App() {
 
               <div className='seriesPanel'>
                     <p className='seriesheader'>
-                    2021 Season:
+                    2021 Season <a href="/races" class="btn btn-info" role="button"><b>Results</b></a>:
                     </p>
                   <ul className='AtAGlance'>
-                      <li>Monks Mayhem | 10/23/2021 | <a href="/monks_2021" class="btn btn-info" role="button"><b>RESULTS</b></a> </li> 
-                      <li>Lost Dog Enduro | 11/21/2021 | <a href="/lost_dog_2021" class="btn btn-info" role="button"><b>RESULTS</b></a>  </li>
+                      <li>Monks Mayhem | 10/23/2021   </li> 
+                      <li>Lost Dog Enduro | 11/21/2021   </li>
                      
-                      <li>Franklin Mountains | 12/18/2021 | <a href="/franklin_2021" class="btn btn-info" role="button"><b>RESULTS</b></a> </li>
+                      <li>Franklin Mountains | 12/18/2021   </li>
                       
                       <li id="register"><b>Roughrider Canyon | 2/20/2022 | </b> <a href="https://www.bikereg.com/rrbash?fbclid=IwAR15ysZOzmGVdrfuewZBzFYutW9Kc1Pe2enTdEnDtvfsEMuHeTtqkbpEUHc"  target="_blank" class="btn btn-danger" role="button"><b>REGISTER</b></a></li>
 
