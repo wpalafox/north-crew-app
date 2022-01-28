@@ -53,7 +53,7 @@ export const ContactUs = () => {
 
 
         <div className="form-group row">
-            <label for="staticEmail" class="col-sm-3 col-form-label">Email</label>
+            <label for="staticEmail" class="col-sm-3 col-form-label"><b>Email</b></label>
             <div class="col-sm-3">
                 <input type="email" name="user_email" placeholder='john@shredsalot.com'  />
             </div>
@@ -61,7 +61,7 @@ export const ContactUs = () => {
         </div>
 
         <div className="form-group row">
-            <label for="staticEmail" class="col-sm-3 col-form-label">Name</label>
+            <label for="staticEmail" class="col-sm-3 col-form-label"><b>Name</b></label>
             <div class="col-sm-3">
                 <input type="text" name="user_name" placeholder='John Doe'  />
             </div>
@@ -69,7 +69,7 @@ export const ContactUs = () => {
         </div>
 
         <div className="form-group row" id="message-row">
-            <label for="staticMessage" class="col-sm-3 col-form-label">Message</label>
+            <label for="staticMessage" class="col-sm-3 col-form-label"><b>Message</b>/label>
             <div class="col-sm-3">
                 <textarea name="message" placeholder='I have questions about my recent registration or how could I volunteer for the next event?'   />
             </div>
