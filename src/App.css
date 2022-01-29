@@ -18,6 +18,10 @@
 
 }
 
+.results-line{
+  list-style-type: none;
+}
+
 
 .introduction{
   text-align: left;
