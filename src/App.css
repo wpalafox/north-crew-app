@@ -18,6 +18,10 @@
 
 }
 
+.rockbiter-race{
+  font-family: 'rock_biter';
+}
+
 .results-line{
   list-style-type: none;
   padding-bottom: 2%;
@@ -56,6 +60,8 @@
 .seriesheader{
   font-weight: bold;
   text-align: left;
+  font-family: 'rock_biter';
+  color: goldenrod;
 }
 
 li{

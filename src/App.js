@@ -64,15 +64,15 @@ function App() {
                     2021 Season:
                     </p>
                   <ul className='AtAGlance'>
-                      <li>Monks Mayhem | 10/23/2021 |  </li> 
+                      <li className="rockbiter-race">Monks Mayhem | 10/23/2021   </li> 
                       <li className='results-line'><a href="/monks_2021"  class="btn btn-info" role="button"><b>RESULTS</b></a>   </li> 
-                      <li>Lost Dog Enduro | 11/21/2021 |   </li>
+                      <li className="rockbiter-race">Lost Dog Enduro | 11/21/2021    </li>
                       <li className='results-line'><a href="/lost_dog_2021"   class="btn btn-info" role="button"><b>RESULTS</b></a>   </li> 
                      
-                      <li>Franklin Mountains | 12/18/2021 |   </li>
+                      <li className="rockbiter-race">Franklin Mountains | 12/18/2021   </li>
                       <li className='results-line'><a href="/franklin_2021"   class="btn btn-info" role="button"><b>RESULTS</b></a>   </li>
                       
-                      <li id="register"><b>Roughrider Canyon | 2/20/2022 | </b> </li>
+                      <li className="rockbiter-race" id="register"><b>Roughrider Canyon | 2/20/2022  </b> </li>
                       <li className='results-line'><a href="https://www.bikereg.com/rrbash?fbclid=IwAR15ysZOzmGVdrfuewZBzFYutW9Kc1Pe2enTdEnDtvfsEMuHeTtqkbpEUHc"  target="_blank" class="btn btn-danger" role="button"><b>REGISTER</b></a></li>
                   </ul>
                
