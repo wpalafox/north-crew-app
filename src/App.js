@@ -72,7 +72,7 @@ function App() {
                       <li className="rockbiter-race">Franklin Mountains | 12/18/2021   </li>
                       <li className='results-line'><a href="/franklin_2021"   class="btn btn-info" role="button"><b>RESULTS</b></a>   </li>
                       
-                      <li className="rockbiter-race" id="register"><b>Roughrider Canyon | 2/20/2022  </b> </li>
+                      <li className="rockbiter-race" id="register">Roughrider Canyon | 2/20/2022  </li>
                       <li className='results-line'><a href="https://www.bikereg.com/rrbash?fbclid=IwAR15ysZOzmGVdrfuewZBzFYutW9Kc1Pe2enTdEnDtvfsEMuHeTtqkbpEUHc"  target="_blank" class="btn btn-danger" role="button"><b>REGISTER</b></a></li>
                   </ul>
                
