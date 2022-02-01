@@ -26,9 +26,7 @@ export default function NavBar() {
                             <li className="nav-item">
                                 <a className="nav-link" href="/races">Results</a>
                             </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="/news">News</a>
-                            </li>
+                            
                             <li className="nav-item">
                                 <a className="nav-link" href="/contactus">Contact Us</a> 
                             </li>
