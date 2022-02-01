@@ -7,7 +7,8 @@ export default function News() {
 
 
     const data = [
-      { news: 'Congratulations to all the participants and the winners', link: "https://www.facebook.com/epduro/posts/677340323636093", caption: 'Winners are 72. Ricky Rod - merol Racing Hat 11. Julio Terrazas - free basic tune up at Podium 16.Norma Rivera. Evil Insurgen LB bike 🤘🏻🤘🏻' },
+        { news: 'Get ready to take your riding to the next level!', link: "https://www.instagram.com/p/CZbBCDIloa_/", caption: 'Register for stop 4 🛑 roughrider bash Feb 18-19-20, full weekend of shredding 🤘🏻🤘🏻 $10 camping and $5 parking to benefit Mountain Action Sports El Paso 🤙🏻🤙🏻' },
+        { news: 'Congratulations to all the participants and the winners', link: "https://www.facebook.com/epduro/posts/677340323636093", caption: 'Winners are 72. Ricky Rod - merol Racing Hat 11. Julio Terrazas - free basic tune up at Podium 16.Norma Rivera. Evil Insurgent LB bike 🤘🏻🤘🏻' },
         { news: 'Roughrider vibes!  ', link: "https://www.instagram.com/p/CZVF911vXRn/", caption: 'Come join us tomorrow! All trails have been worked on! Jumps running smooth 🤘🏻🤘🏻 see you Sunday 🤙🏻🤙🏻 ' },
         { news: 'RAFFLE HAS SOLD OUT ', link: "https://www.facebook.com/epduro/posts/676267967076662", caption: 'EP ENDURO FAM! You rock! We have sold out the Evil Bike raffle 🤘🏻🤘🏻 we will do the Facebook live Sunday around noon, make sure you tune in. If not we will post the results shortly after 🎟🎟 thanks for your support 🤙🏻🤙🏻Bike is serviced and ready to go!! ' },
         { news: 'Shuttle all day this coming weekend ', link: "https://www.instagram.com/p/CZKf0iPP87I", caption: 'Shuttle all day this coming weekend at ROUGHRIDER CANYON. Come dig with us! Get your spot for stop 🛑 4 of EP ENDURO series. Evil mountainbike raffle almost full! Get your number 🤘🏻🤘🏻' },
