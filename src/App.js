@@ -139,6 +139,13 @@ const news_links = data.map((item) =>
          
           </div>
         </header>
+
+
+
+
+
+
+        
         <div className='awesome-slider-div'>
         <h1 className="rockbiter-race news">Pics  </h1> 
         <AwesomeSlider className="awesome-slider" animation='cubeAnimation'>
