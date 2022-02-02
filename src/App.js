@@ -27,7 +27,7 @@ import pablo_hustle from './pics/pablo_hustling.jpg';
 function App() {
   
   const data = [
-    { news: 'Check this run', link: "https://www.instagram.com/p/CZbBCDIloa_/", caption: 'Check this run on part of one of the stages for ROUGHRIDER BASH, EP ENDURO 4 🤘🏻🤘🏻 Getting closer!! Go to bike reg and grab your spot 🤙🏻🤙🏻 Video Courtesy of Mad Max little shredder 👊🏻' },
+    { news: 'Check this run', link: "https://www.facebook.com/epduro/videos/4952165258181682/", caption: 'Check this run on part of one of the stages for ROUGHRIDER BASH, EP ENDURO 4 🤘🏻🤘🏻 Getting closer!! Go to bike reg and grab your spot 🤙🏻🤙🏻 Video Courtesy of Mad Max little shredder 👊🏻' },
     { news: 'Get ready to take your riding to the next level!', link: "https://www.instagram.com/p/CZbBCDIloa_/", caption: 'Register for stop 4 🛑 roughrider bash Feb 18-19-20, full weekend of shredding 🤘🏻🤘🏻 $10 camping and $5 parking to benefit Mountain Action Sports El Paso 🤙🏻🤙🏻' },
     { news: 'Congratulations to all the participants and the winners', link: "https://www.facebook.com/epduro/posts/677340323636093", caption: 'Winners are 72. Ricky Rod - merol Racing Hat 11. Julio Terrazas - free basic tune up at Podium 16.Norma Rivera. Evil Insurgent LB bike 🤘🏻🤘🏻' },
     { news: 'Roughrider vibes!  ', link: "https://www.instagram.com/p/CZVF911vXRn/", caption: 'Come join us tomorrow! All trails have been worked on! Jumps running smooth 🤘🏻🤘🏻 see you Sunday 🤙🏻🤙🏻 ' },
