@@ -139,7 +139,7 @@ const news_links = data.map((item) =>
           </div>
         </header>
         <div className='awesome-slider-div'>
-        <h1 className="rockbiter-race news">Carousel  </h1> 
+        <h1 className="rockbiter-race news">Pics  </h1> 
         <AwesomeSlider className="awesome-slider" animation='cubeAnimation'>
             <div className="image-item" data-src={podium_mo} />
             <div className="image-item" data-src={max_photo} />
