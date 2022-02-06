@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
 import './ContactUs.css';
-import header_contactus from './pics/contact_us_header.jpg';
+import header_contactus from './pics/new_contact_us.jpg';
 
 
 export const ContactUs = () => {
