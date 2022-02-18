@@ -27,6 +27,7 @@ import pablo_hustle from './pics/pablo_hustling.jpg';
 function App() {
   
   const data = [
+    { news: 'Prizes are ready ! Registration closes tonight at 10 PM ', link: "https://www.facebook.com/epduro/photos/a.143473850356079/688429715860487/?type=3", caption: 'Don’t miss out your last chance to see and ride Roughrider canyon 🤘🏻  ' },
     { news: 'Free Injury Assessment', link: "https://www.facebook.com/epduro/posts/687111739325618", caption: 'Once again you will have an opportunity to get a free injury assessment from our friends Airrosti get your time slot for Sunday on the last EP ENDURO round at ROUGHRIDER CANYON BASH and maybe the last time we will be able to ride this trails. ' },
     { news: 'Almost here! ', link: "https://www.instagram.com/p/CZ4eWTHsEaU/", caption: ' Registration closes soon. Get your spot and lets ride one last time at ROUGHRIDER CANYON 🤘🏻🤘🏻 Come join us to this whole weekend of riding, shuttling and jumping skills.' },
     { news: 'Here are the updated positions', link: "https://www.instagram.com/p/CZuVsfzgWim/", caption: 'still lots of scenarios open for the 1st place of every class and the overall winner! 🏆 Do not miss out the last opportunity to ride Roughrider Canyon trails ⚠️⚠️ Go register at https://www.bikereg.com/rrbash' },
