@@ -132,7 +132,7 @@ const news_links = data.map((item) =>
                         Check out the Canyon
                       </a> </li>
                       
-                      <li className='results-line'><a href="https://www.bikereg.com/rrbash?fbclid=IwAR15ysZOzmGVdrfuewZBzFYutW9Kc1Pe2enTdEnDtvfsEMuHeTtqkbpEUHc"  target="_blank" class="btn btn-danger" role="button"><b>REGISTER</b></a></li>
+                      <li className='results-line'><a href="/rider_2021"  target="_blank" class="btn btn-info" role="button"><b>RESULTS</b></a></li>
                       
                   </ul>
                
