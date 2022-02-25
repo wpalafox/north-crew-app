@@ -654,6 +654,7 @@ const csvRoughRider = [
 
 export default function rough_rider() {
     return (
+        <div className='background-rider'>
         <div className='rough-rider'>
             <h1 className='gold-0'>Rough Rider</h1>
             <table class="tableizer-table">
@@ -699,5 +700,6 @@ export default function rough_rider() {
                 </tbody></table>
                 <CSVLink className="downloadLink" data={csvRoughRider}>Download Results</CSVLink>  
         </div>
+    </div>
     )
 }
