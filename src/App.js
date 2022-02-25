@@ -27,6 +27,7 @@ import pablo_hustle from './pics/pablo_hustling.jpg';
 function App() {
   
   const data = [
+    { news: 'Results are in!  ', link: "https://www.instagram.com/p/CaTOtsao7NJ/", caption: 'check the times for Rough Rider Bash and the final Series results! Congratulations to all the winners and participants! and special thanks to all the sponsors and crew of volunteers... you guys rock 🤘🤘'},
     { news: 'We are set! Come see this trails one last time 🤘🏻🤘🏻 ', link: "https://www.instagram.com/p/CaJElJxDFm9/", caption: 'Closes store is 30 min away so come prepared. Search roughrider in google maps and it will take you there. '},
     { news: 'Prizes are ready ! Registration closes tonight at 10 PM ', link: "https://www.facebook.com/epduro/photos/a.143473850356079/688429715860487/?type=3", caption: 'Don’t miss out your last chance to see and ride Roughrider canyon 🤘🏻  ' },
     { news: 'Free Injury Assessment', link: "https://www.facebook.com/epduro/posts/687111739325618", caption: 'Once again you will have an opportunity to get a free injury assessment from our friends Airrosti get your time slot for Sunday on the last EP ENDURO round at ROUGHRIDER CANYON BASH and maybe the last time we will be able to ride this trails. ' },
