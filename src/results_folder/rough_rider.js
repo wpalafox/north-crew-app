@@ -3,13 +3,15 @@ import './rough_rider.css'
 import { CSVLink, CSVDownload } from "react-csv";
 
 
-const csvRoughRider = [
+const csvRoughRider =[
     {
       "RaceNumber": 84,
+      "CardNumbers": 8143955,
       "Name": "Wyatt Ivey",
       "Club": "",
       "CourseClass": "JR Men",
       "RaceTime": "09:39.5",
+      "NonCompetitive": "N",
       "Position": 1,
       "BehindTime": "",
       "Stage_1_Time": "02:23.9",
@@ -18,15 +20,17 @@ const csvRoughRider = [
       "Stage_2_Pos": 1,
       "Stage_3_Time": "01:19.3",
       "Stage_3_Pos": 2,
-      "Stage_3_Time": "03:12.6",
-      "Stage_3_Pos": 1
+      "Stage_4_Time": "03:12.6",
+      "Stage_4_Pos": 1
     },
     {
       "RaceNumber": 18,
+      "CardNumbers": 8143957,
       "Name": "Max Guerra",
       "Club": "",
       "CourseClass": "JR Men",
       "RaceTime": "11:29.8",
+      "NonCompetitive": "N",
       "Position": 2,
       "BehindTime": "+1:50.34",
       "Stage_1_Time": "03:04.6",
@@ -35,15 +39,17 @@ const csvRoughRider = [
       "Stage_2_Pos": 2,
       "Stage_3_Time": "01:18.9",
       "Stage_3_Pos": 1,
-      "Stage_3_Time": "03:39.6",
-      "Stage_3_Pos": 2
+      "Stage_4_Time": "03:39.6",
+      "Stage_4_Pos": 2
     },
     {
       "RaceNumber": 58,
+      "CardNumbers": 8032651,
       "Name": "Alexander Gutierrez",
       "Club": "One Trail At A Time",
       "CourseClass": "Men Advanced",
       "RaceTime": "08:09.6",
+      "NonCompetitive": "N",
       "Position": 1,
       "BehindTime": "",
       "Stage_1_Time": "02:11.7",
@@ -52,15 +58,17 @@ const csvRoughRider = [
       "Stage_2_Pos": 1,
       "Stage_3_Time": "00:54.7",
       "Stage_3_Pos": 1,
-      "Stage_3_Time": "02:41.6",
-      "Stage_3_Pos": 1
+      "Stage_4_Time": "02:41.6",
+      "Stage_4_Pos": 1
     },
     {
       "RaceNumber": 80,
+      "CardNumbers": 8143985,
       "Name": "Kevin Dunn",
       "Club": "",
       "CourseClass": "Men Advanced",
       "RaceTime": "09:00.1",
+      "NonCompetitive": "N",
       "Position": 2,
       "BehindTime": "+0:50.42",
       "Stage_1_Time": "02:22.8",
@@ -69,15 +77,17 @@ const csvRoughRider = [
       "Stage_2_Pos": 3,
       "Stage_3_Time": "01:03.2",
       "Stage_3_Pos": 3,
-      "Stage_3_Time": "02:50.7",
-      "Stage_3_Pos": 2
+      "Stage_4_Time": "02:50.7",
+      "Stage_4_Pos": 2
     },
     {
       "RaceNumber": 14,
+      "CardNumbers": 8032613,
       "Name": "Joel Lujan",
       "Club": "North Crew",
       "CourseClass": "Men Advanced",
       "RaceTime": "09:10.9",
+      "NonCompetitive": "N",
       "Position": 3,
       "BehindTime": "+1:01.27",
       "Stage_1_Time": "02:30.3",
@@ -86,15 +96,17 @@ const csvRoughRider = [
       "Stage_2_Pos": 2,
       "Stage_3_Time": "01:06.2",
       "Stage_3_Pos": 5,
-      "Stage_3_Time": "02:53.4",
-      "Stage_3_Pos": 3
+      "Stage_4_Time": "02:53.4",
+      "Stage_4_Pos": 3
     },
     {
       "RaceNumber": 57,
+      "CardNumbers": 8032653,
       "Name": "Orlando Mendoza",
       "Club": "",
       "CourseClass": "Men Advanced",
       "RaceTime": "09:20.2",
+      "NonCompetitive": "N",
       "Position": 4,
       "BehindTime": "+1:10.57",
       "Stage_1_Time": "02:20.0",
@@ -103,15 +115,17 @@ const csvRoughRider = [
       "Stage_2_Pos": 5,
       "Stage_3_Time": "01:06.1",
       "Stage_3_Pos": 4,
-      "Stage_3_Time": "03:01.3",
-      "Stage_3_Pos": 4
+      "Stage_4_Time": "03:01.3",
+      "Stage_4_Pos": 4
     },
     {
       "RaceNumber": 71,
+      "CardNumbers": 8032648,
       "Name": "Eddie Sanchez",
       "Club": "North Crew",
       "CourseClass": "Men Advanced",
       "RaceTime": "10:00.0",
+      "NonCompetitive": "N",
       "Position": 5,
       "BehindTime": "+1:50.39",
       "Stage_1_Time": "02:42.1",
@@ -120,15 +134,17 @@ const csvRoughRider = [
       "Stage_2_Pos": 6,
       "Stage_3_Time": "01:01.9",
       "Stage_3_Pos": 2,
-      "Stage_3_Time": "03:13.7",
-      "Stage_3_Pos": 5
+      "Stage_4_Time": "03:13.7",
+      "Stage_4_Pos": 5
     },
     {
       "RaceNumber": 53,
+      "CardNumbers": 8032619,
       "Name": "Blas Meza",
       "Club": "One Trail At a Time",
       "CourseClass": "Men Advanced",
       "RaceTime": "10:41.1",
+      "NonCompetitive": "N",
       "Position": 6,
       "BehindTime": "+2:31.41",
       "Stage_1_Time": "02:40.7",
@@ -137,15 +153,17 @@ const csvRoughRider = [
       "Stage_2_Pos": 4,
       "Stage_3_Time": "01:06.5",
       "Stage_3_Pos": 6,
-      "Stage_3_Time": "04:09.0",
-      "Stage_3_Pos": 7
+      "Stage_4_Time": "04:09.0",
+      "Stage_4_Pos": 7
     },
     {
       "RaceNumber": 15,
+      "CardNumbers": 8032674,
       "Name": "Arturo Garcia",
       "Club": "Ciclismo Juarez",
       "CourseClass": "Men Advanced",
       "RaceTime": "14:15.7",
+      "NonCompetitive": "N",
       "Position": 7,
       "BehindTime": "+6:06.02",
       "Stage_1_Time": "03:18.5",
@@ -154,15 +172,17 @@ const csvRoughRider = [
       "Stage_2_Pos": 7,
       "Stage_3_Time": "02:51.4",
       "Stage_3_Pos": 7,
-      "Stage_3_Time": "03:33.7",
-      "Stage_3_Pos": 6
+      "Stage_4_Time": "03:33.7",
+      "Stage_4_Pos": 6
     },
     {
       "RaceNumber": 76,
+      "CardNumbers": 8032668,
       "Name": "Eric Sotomajor",
       "Club": "The Shock Lab",
       "CourseClass": "Men Expert",
       "RaceTime": "08:04.1",
+      "NonCompetitive": "N",
       "Position": 1,
       "BehindTime": "",
       "Stage_1_Time": "02:11.9",
@@ -171,15 +191,17 @@ const csvRoughRider = [
       "Stage_2_Pos": 2,
       "Stage_3_Time": "00:58.9",
       "Stage_3_Pos": 2,
-      "Stage_3_Time": "02:35.1",
-      "Stage_3_Pos": 2
+      "Stage_4_Time": "02:35.1",
+      "Stage_4_Pos": 2
     },
     {
       "RaceNumber": 78,
+      "CardNumbers": 8032634,
       "Name": "Humberto Arevalo",
       "Club": "The Shock Lab",
       "CourseClass": "Men Expert",
       "RaceTime": "08:22.7",
+      "NonCompetitive": "N",
       "Position": 2,
       "BehindTime": "+0:18.60",
       "Stage_1_Time": "02:12.7",
@@ -188,15 +210,17 @@ const csvRoughRider = [
       "Stage_2_Pos": 3,
       "Stage_3_Time": "01:02.4",
       "Stage_3_Pos": 5,
-      "Stage_3_Time": "02:39.1",
-      "Stage_3_Pos": 3
+      "Stage_4_Time": "02:39.1",
+      "Stage_4_Pos": 3
     },
     {
       "RaceNumber": 56,
+      "CardNumbers": 8032662,
       "Name": "Wayne Shaffer",
       "Club": "Bycicle Experience",
       "CourseClass": "Men Expert",
       "RaceTime": "08:44.4",
+      "NonCompetitive": "N",
       "Position": 3,
       "BehindTime": "+0:40.24",
       "Stage_1_Time": "02:27.6",
@@ -205,15 +229,17 @@ const csvRoughRider = [
       "Stage_2_Pos": 4,
       "Stage_3_Time": "00:55.7",
       "Stage_3_Pos": 1,
-      "Stage_3_Time": "02:48.3",
-      "Stage_3_Pos": 4
+      "Stage_4_Time": "02:48.3",
+      "Stage_4_Pos": 4
     },
     {
       "RaceNumber": 64,
+      "CardNumbers": 8032615,
       "Name": "Corey Jones",
       "Club": "",
       "CourseClass": "Men Expert",
       "RaceTime": "08:54.5",
+      "NonCompetitive": "N",
       "Position": 4,
       "BehindTime": "+0:50.42",
       "Stage_1_Time": "02:31.6",
@@ -222,15 +248,17 @@ const csvRoughRider = [
       "Stage_2_Pos": 1,
       "Stage_3_Time": "01:59.3",
       "Stage_3_Pos": 7,
-      "Stage_3_Time": "02:32.0",
-      "Stage_3_Pos": 1
+      "Stage_4_Time": "02:32.0",
+      "Stage_4_Pos": 1
     },
     {
       "RaceNumber": 59,
+      "CardNumbers": 8032637,
       "Name": "Sergio Acosta",
       "Club": "Ciclismo Juarez",
       "CourseClass": "Men Expert",
       "RaceTime": "09:01.0",
+      "NonCompetitive": "N",
       "Position": 5,
       "BehindTime": "+0:56.87",
       "Stage_1_Time": "02:31.4",
@@ -239,15 +267,17 @@ const csvRoughRider = [
       "Stage_2_Pos": 5,
       "Stage_3_Time": "01:01.8",
       "Stage_3_Pos": 4,
-      "Stage_3_Time": "02:53.5",
-      "Stage_3_Pos": 5
+      "Stage_4_Time": "02:53.5",
+      "Stage_4_Pos": 5
     },
     {
       "RaceNumber": 62,
+      "CardNumbers": 8032630,
       "Name": "Edgar Ramirez",
       "Club": "The Shock Lab",
       "CourseClass": "Men Expert",
       "RaceTime": "09:15.5",
+      "NonCompetitive": "N",
       "Position": 6,
       "BehindTime": "+1:11.40",
       "Stage_1_Time": "02:31.2",
@@ -256,15 +286,17 @@ const csvRoughRider = [
       "Stage_2_Pos": 6,
       "Stage_3_Time": "01:11.1",
       "Stage_3_Pos": 6,
-      "Stage_3_Time": "02:54.2",
-      "Stage_3_Pos": 6
+      "Stage_4_Time": "02:54.2",
+      "Stage_4_Pos": 6
     },
     {
       "RaceNumber": 63,
+      "CardNumbers": 8032611,
       "Name": "Hunt Burdick",
       "Club": "",
       "CourseClass": "Men Expert",
       "RaceTime": "09:33.0",
+      "NonCompetitive": "N",
       "Position": 7,
       "BehindTime": "+1:28.83",
       "Stage_1_Time": "02:41.5",
@@ -273,15 +305,17 @@ const csvRoughRider = [
       "Stage_2_Pos": 7,
       "Stage_3_Time": "00:59.2",
       "Stage_3_Pos": 3,
-      "Stage_3_Time": "03:03.3",
-      "Stage_3_Pos": 7
+      "Stage_4_Time": "03:03.3",
+      "Stage_4_Pos": 7
     },
     {
       "RaceNumber": 85,
+      "CardNumbers": 8032640,
       "Name": "Arnold Rodriguez",
       "Club": "",
       "CourseClass": "Men Intermediate",
       "RaceTime": "09:29.2",
+      "NonCompetitive": "N",
       "Position": 1,
       "BehindTime": "",
       "Stage_1_Time": "02:26.6",
@@ -290,15 +324,17 @@ const csvRoughRider = [
       "Stage_2_Pos": 2,
       "Stage_3_Time": "01:10.7",
       "Stage_3_Pos": 2,
-      "Stage_3_Time": "02:50.7",
-      "Stage_3_Pos": 2
+      "Stage_4_Time": "02:50.7",
+      "Stage_4_Pos": 2
     },
     {
       "RaceNumber": 19,
+      "CardNumbers": 8032646,
       "Name": "Luis Gallegos",
       "Club": "",
       "CourseClass": "Men Intermediate",
       "RaceTime": "09:46.5",
+      "NonCompetitive": "N",
       "Position": 2,
       "BehindTime": "+0:17.27",
       "Stage_1_Time": "02:38.3",
@@ -307,15 +343,17 @@ const csvRoughRider = [
       "Stage_2_Pos": 3,
       "Stage_3_Time": "01:07.2",
       "Stage_3_Pos": 1,
-      "Stage_3_Time": "02:59.4",
-      "Stage_3_Pos": 3
+      "Stage_4_Time": "02:59.4",
+      "Stage_4_Pos": 3
     },
     {
       "RaceNumber": 75,
+      "CardNumbers": 8032609,
       "Name": "Josh Bell",
       "Club": "Podium Finish",
       "CourseClass": "Men Intermediate",
       "RaceTime": "10:08.1",
+      "NonCompetitive": "N",
       "Position": 3,
       "BehindTime": "+0:38.90",
       "Stage_1_Time": "02:36.9",
@@ -324,15 +362,17 @@ const csvRoughRider = [
       "Stage_2_Pos": 1,
       "Stage_3_Time": "01:12.6",
       "Stage_3_Pos": 3,
-      "Stage_3_Time": "03:34.5",
-      "Stage_3_Pos": 5
+      "Stage_4_Time": "03:34.5",
+      "Stage_4_Pos": 5
     },
     {
       "RaceNumber": 79,
+      "CardNumbers": 8032677,
       "Name": "Tony Sanchez",
       "Club": "",
       "CourseClass": "Men Intermediate",
       "RaceTime": "10:25.6",
+      "NonCompetitive": "N",
       "Position": 4,
       "BehindTime": "+0:56.34",
       "Stage_1_Time": "02:34.1",
@@ -341,15 +381,17 @@ const csvRoughRider = [
       "Stage_2_Pos": 4,
       "Stage_3_Time": "01:25.8",
       "Stage_3_Pos": 6,
-      "Stage_3_Time": "03:17.4",
-      "Stage_3_Pos": 4
+      "Stage_4_Time": "03:17.4",
+      "Stage_4_Pos": 4
     },
     {
       "RaceNumber": 83,
+      "CardNumbers": 8032645,
       "Name": "Efren Carranza",
       "Club": "North Crew / The Shock Lab",
       "CourseClass": "Men Intermediate",
       "RaceTime": "11:01.3",
+      "NonCompetitive": "N",
       "Position": 5,
       "BehindTime": "+1:32.05",
       "Stage_1_Time": "02:47.7",
@@ -358,15 +400,17 @@ const csvRoughRider = [
       "Stage_2_Pos": 5,
       "Stage_3_Time": "01:23.6",
       "Stage_3_Pos": 5,
-      "Stage_3_Time": "03:38.3",
-      "Stage_3_Pos": 6
+      "Stage_4_Time": "03:38.3",
+      "Stage_4_Pos": 6
     },
     {
       "RaceNumber": 86,
+      "CardNumbers": 8032642,
       "Name": "Ramon Gamez",
       "Club": "One Trail A Time",
       "CourseClass": "Men Intermediate",
       "RaceTime": "11:15.9",
+      "NonCompetitive": "N",
       "Position": 6,
       "BehindTime": "+1:46.73",
       "Stage_1_Time": "02:55.2",
@@ -375,15 +419,17 @@ const csvRoughRider = [
       "Stage_2_Pos": 7,
       "Stage_3_Time": "01:20.2",
       "Stage_3_Pos": 4,
-      "Stage_3_Time": "03:40.0",
-      "Stage_3_Pos": 7
+      "Stage_4_Time": "03:40.0",
+      "Stage_4_Pos": 7
     },
     {
       "RaceNumber": 46,
+      "CardNumbers": 8032608,
       "Name": "Eric Klauss",
       "Club": "",
       "CourseClass": "Men Intermediate",
       "RaceTime": "11:41.5",
+      "NonCompetitive": "N",
       "Position": 7,
       "BehindTime": "+2:12.30",
       "Stage_1_Time": "02:32.7",
@@ -392,15 +438,17 @@ const csvRoughRider = [
       "Stage_2_Pos": 6,
       "Stage_3_Time": "03:00.3",
       "Stage_3_Pos": 8,
-      "Stage_3_Time": "02:49.8",
-      "Stage_3_Pos": 1
+      "Stage_4_Time": "02:49.8",
+      "Stage_4_Pos": 1
     },
     {
       "RaceNumber": 70,
+      "CardNumbers": 8143978,
       "Name": "Ricardo Lopez",
       "Club": "Middle of Nowhere",
       "CourseClass": "Men Intermediate",
       "RaceTime": "14:38.5",
+      "NonCompetitive": "N",
       "Position": 8,
       "BehindTime": "+5:09.28",
       "Stage_1_Time": "03:29.2",
@@ -409,15 +457,17 @@ const csvRoughRider = [
       "Stage_2_Pos": 8,
       "Stage_3_Time": "03:11.9",
       "Stage_3_Pos": 9,
-      "Stage_3_Time": "03:59.2",
-      "Stage_3_Pos": 8
+      "Stage_4_Time": "03:59.2",
+      "Stage_4_Pos": 8
     },
     {
       "RaceNumber": 87,
+      "CardNumbers": 8032616,
       "Name": "David Benitez",
       "Club": "",
       "CourseClass": "Men Intermediate",
       "RaceTime": "15:53.7",
+      "NonCompetitive": "N",
       "Position": 9,
       "BehindTime": "+6:24.54",
       "Stage_1_Time": "04:21.7",
@@ -426,15 +476,17 @@ const csvRoughRider = [
       "Stage_2_Pos": 9,
       "Stage_3_Time": "02:59.9",
       "Stage_3_Pos": 7,
-      "Stage_3_Time": "04:00.0",
-      "Stage_3_Pos": 9
+      "Stage_4_Time": "04:00.0",
+      "Stage_4_Pos": 9
     },
     {
       "RaceNumber": 61,
+      "CardNumbers": 8032655,
       "Name": "Teresa Hughes",
       "Club": "Victory Racing",
       "CourseClass": "Women Open",
       "RaceTime": "10:43.5",
+      "NonCompetitive": "N",
       "Position": 1,
       "BehindTime": "",
       "Stage_1_Time": "02:46.0",
@@ -443,15 +495,17 @@ const csvRoughRider = [
       "Stage_2_Pos": 1,
       "Stage_3_Time": "01:10.9",
       "Stage_3_Pos": 1,
-      "Stage_3_Time": "03:44.4",
-      "Stage_3_Pos": 1
+      "Stage_4_Time": "03:44.4",
+      "Stage_4_Pos": 1
     },
     {
       "RaceNumber": 60,
+      "CardNumbers": 8032618,
       "Name": "Perla Reyes",
       "Club": "",
       "CourseClass": "Women Open",
       "RaceTime": "14:57.5",
+      "NonCompetitive": "N",
       "Position": 2,
       "BehindTime": "+4:14.00",
       "Stage_1_Time": "03:53.7",
@@ -460,15 +514,17 @@ const csvRoughRider = [
       "Stage_2_Pos": 2,
       "Stage_3_Time": "02:52.4",
       "Stage_3_Pos": 2,
-      "Stage_3_Time": "03:59.2",
-      "Stage_3_Pos": 2
+      "Stage_4_Time": "03:59.2",
+      "Stage_4_Pos": 2
     },
     {
       "RaceNumber": 4,
+      "CardNumbers": 8032657,
       "Name": "Alexander Gutierrez",
       "Club": "",
       "CourseClass": "Stage 5 - BANDIDO RUSH",
       "RaceTime": "02:14.6",
+      "NonCompetitive": "N",
       "Position": 1,
       "BehindTime": "",
       "Stage_1_Time": "",
@@ -477,15 +533,17 @@ const csvRoughRider = [
       "Stage_2_Pos": "",
       "Stage_3_Time": "",
       "Stage_3_Pos": "",
-      "Stage_3_Time": "",
-      "Stage_3_Pos": ""
+      "Stage_4_Time": "",
+      "Stage_4_Pos": ""
     },
     {
       "RaceNumber": 7,
+      "CardNumbers": 8032676,
       "Name": "Corey Jones",
       "Club": "",
       "CourseClass": "Stage 5 - BANDIDO RUSH",
       "RaceTime": "02:22.6",
+      "NonCompetitive": "N",
       "Position": 2,
       "BehindTime": "+0:08.02",
       "Stage_1_Time": "",
@@ -494,15 +552,17 @@ const csvRoughRider = [
       "Stage_2_Pos": "",
       "Stage_3_Time": "",
       "Stage_3_Pos": "",
-      "Stage_3_Time": "",
-      "Stage_3_Pos": ""
+      "Stage_4_Time": "",
+      "Stage_4_Pos": ""
     },
     {
       "RaceNumber": 6,
+      "CardNumbers": 8143954,
       "Name": "Eric Sotomajor",
       "Club": "",
       "CourseClass": "Stage 5 - BANDIDO RUSH",
       "RaceTime": "02:36.7",
+      "NonCompetitive": "N",
       "Position": 3,
       "BehindTime": "+0:22.09",
       "Stage_1_Time": "",
@@ -511,15 +571,17 @@ const csvRoughRider = [
       "Stage_2_Pos": "",
       "Stage_3_Time": "",
       "Stage_3_Pos": "",
-      "Stage_3_Time": "",
-      "Stage_3_Pos": ""
+      "Stage_4_Time": "",
+      "Stage_4_Pos": ""
     },
     {
       "RaceNumber": 5,
+      "CardNumbers": 8032652,
       "Name": "wyatt Ivey",
       "Club": "",
       "CourseClass": "Stage 5 - BANDIDO RUSH",
       "RaceTime": "02:45.3",
+      "NonCompetitive": "N",
       "Position": 4,
       "BehindTime": "+0:30.73",
       "Stage_1_Time": "",
@@ -528,15 +590,17 @@ const csvRoughRider = [
       "Stage_2_Pos": "",
       "Stage_3_Time": "",
       "Stage_3_Pos": "",
-      "Stage_3_Time": "",
-      "Stage_3_Pos": ""
+      "Stage_4_Time": "",
+      "Stage_4_Pos": ""
     },
     {
       "RaceNumber": 3,
+      "CardNumbers": 8032643,
       "Name": "Kevin Dunn",
       "Club": "",
       "CourseClass": "Stage 5 - BANDIDO RUSH",
       "RaceTime": "02:48.8",
+      "NonCompetitive": "N",
       "Position": 5,
       "BehindTime": "+0:34.23",
       "Stage_1_Time": "",
@@ -545,15 +609,17 @@ const csvRoughRider = [
       "Stage_2_Pos": "",
       "Stage_3_Time": "",
       "Stage_3_Pos": "",
-      "Stage_3_Time": "",
-      "Stage_3_Pos": ""
+      "Stage_4_Time": "",
+      "Stage_4_Pos": ""
     },
     {
       "RaceNumber": 2,
+      "CardNumbers": 8143982,
       "Name": "Blas Meza",
       "Club": "",
       "CourseClass": "Stage 5 - BANDIDO RUSH",
       "RaceTime": "02:51.4",
+      "NonCompetitive": "N",
       "Position": 6,
       "BehindTime": "+0:36.76",
       "Stage_1_Time": "",
@@ -562,15 +628,17 @@ const csvRoughRider = [
       "Stage_2_Pos": "",
       "Stage_3_Time": "",
       "Stage_3_Pos": "",
-      "Stage_3_Time": "",
-      "Stage_3_Pos": ""
+      "Stage_4_Time": "",
+      "Stage_4_Pos": ""
     },
     {
       "RaceNumber": 9,
+      "CardNumbers": 8032666,
       "Name": "Wayne Shaffer",
       "Club": "",
       "CourseClass": "Stage 5 - BANDIDO RUSH",
       "RaceTime": "03:10.5",
+      "NonCompetitive": "N",
       "Position": 7,
       "BehindTime": "+0:55.88",
       "Stage_1_Time": "",
@@ -579,15 +647,17 @@ const csvRoughRider = [
       "Stage_2_Pos": "",
       "Stage_3_Time": "",
       "Stage_3_Pos": "",
-      "Stage_3_Time": "",
-      "Stage_3_Pos": ""
+      "Stage_4_Time": "",
+      "Stage_4_Pos": ""
     },
     {
       "RaceNumber": 1,
+      "CardNumbers": 8143965,
       "Name": "Teresa Hughes",
       "Club": "",
       "CourseClass": "Stage 5 - BANDIDO RUSH",
       "RaceTime": "03:42.4",
+      "NonCompetitive": "N",
       "Position": 8,
       "BehindTime": "+1:27.82",
       "Stage_1_Time": "",
@@ -596,15 +666,17 @@ const csvRoughRider = [
       "Stage_2_Pos": "",
       "Stage_3_Time": "",
       "Stage_3_Pos": "",
-      "Stage_3_Time": "",
-      "Stage_3_Pos": ""
+      "Stage_4_Time": "",
+      "Stage_4_Pos": ""
     },
     {
       "RaceNumber": 8,
+      "CardNumbers": 8143975,
       "Name": "Luis Gallegos",
       "Club": "",
       "CourseClass": "Stage 5 - BANDIDO RUSH",
       "RaceTime": "03:42.7",
+      "NonCompetitive": "N",
       "Position": 9,
       "BehindTime": "+1:28.10",
       "Stage_1_Time": "",
@@ -613,15 +685,17 @@ const csvRoughRider = [
       "Stage_2_Pos": "",
       "Stage_3_Time": "",
       "Stage_3_Pos": "",
-      "Stage_3_Time": "",
-      "Stage_3_Pos": ""
+      "Stage_4_Time": "",
+      "Stage_4_Pos": ""
     },
     {
       "RaceNumber": 10,
+      "CardNumbers": 8143980,
       "Name": "Max Guerra",
       "Club": "",
       "CourseClass": "Stage 5 - BANDIDO RUSH",
       "RaceTime": "06:13.1",
+      "NonCompetitive": "N",
       "Position": 10,
       "BehindTime": "+3:58.45",
       "Stage_1_Time": "",
@@ -630,15 +704,17 @@ const csvRoughRider = [
       "Stage_2_Pos": "",
       "Stage_3_Time": "",
       "Stage_3_Pos": "",
-      "Stage_3_Time": "",
-      "Stage_3_Pos": ""
+      "Stage_4_Time": "",
+      "Stage_4_Pos": ""
     },
     {
       "RaceNumber": 13,
+      "CardNumbers": 8032622,
       "Name": "Rob Roughrider",
       "Club": "",
       "CourseClass": "Stage 5 - BANDIDO RUSH",
       "RaceTime": "07:56.7",
+      "NonCompetitive": "N",
       "Position": 11,
       "BehindTime": "+5:42.05",
       "Stage_1_Time": "",
@@ -647,8 +723,8 @@ const csvRoughRider = [
       "Stage_2_Pos": "",
       "Stage_3_Time": "",
       "Stage_3_Pos": "",
-      "Stage_3_Time": "",
-      "Stage_3_Pos": ""
+      "Stage_4_Time": "",
+      "Stage_4_Pos": ""
     }
   ]
 
@@ -658,46 +734,46 @@ export default function rough_rider() {
         <div className='rough-rider'>
             <h1 className='gold-0'>Rough Rider</h1>
             <table class="tableizer-table">
-                    <thead><tr class="tableizer-firstrow"><th>RaceNumber</th><th>Name</th><th>Club</th><th>CourseClass</th><th>RaceTime</th><th>Position</th><th>BehindTime</th><th>Stage 1 -  Kiddie Caution Time</th><th>Stage 1 -  Kiddie Caution Pos</th><th>Stage 2 -  Rim Job one Time</th><th>Stage 2 -  Rim Job one Pos</th><th>Stage 3 - Rim Job dos Time</th><th>Stage 3 - Rim Job dos Pos</th><th>Stage 4 - Shuttle Down  Time</th><th>Stage 4 - Shuttle Down  Pos</th></tr></thead><tbody>
-                        <tr><td>84</td><td>Wyatt Ivey</td><td>&nbsp;</td><td>JR Men </td><td>09:39.5</td><td>1</td><td>&nbsp;</td><td>02:23.9</td><td>1</td><td>02:43.7</td><td>1</td><td>01:19.3</td><td>2</td><td>03:12.6</td><td>1</td></tr>
-                        <tr><td>18</td><td>Max Guerra</td><td>&nbsp;</td><td>JR Men </td><td>11:29.8</td><td>2</td><td>+1:50.34</td><td>03:04.6</td><td>2</td><td>03:26.7</td><td>2</td><td>01:18.9</td><td>1</td><td>03:39.6</td><td>2</td></tr>
-                        <tr><td>58</td><td>Alexander Gutierrez</td><td>One Trail At A Time</td><td>Men Advanced</td><td>08:09.6</td><td>1</td><td>&nbsp;</td><td>02:11.7</td><td>1</td><td>02:21.7</td><td>1</td><td>00:54.7</td><td>1</td><td>02:41.6</td><td>1</td></tr>
-                        <tr><td>80</td><td>Kevin Dunn </td><td>&nbsp;</td><td>Men Advanced</td><td>09:00.1</td><td>2</td><td>+0:50.42</td><td>02:22.8</td><td>3</td><td>02:43.3</td><td>3</td><td>01:03.2</td><td>3</td><td>02:50.7</td><td>2</td></tr>
-                        <tr><td>14</td><td>Joel Lujan </td><td>North Crew</td><td>Men Advanced</td><td>09:10.9</td><td>3</td><td>+1:01.27</td><td>02:30.3</td><td>4</td><td>02:41.1</td><td>2</td><td>01:06.2</td><td>5</td><td>02:53.4</td><td>3</td></tr>
-                        <tr><td>57</td><td>Orlando Mendoza</td><td>&nbsp;</td><td>Men Advanced</td><td>09:20.2</td><td>4</td><td>+1:10.57</td><td>02:20.0</td><td>2</td><td>02:52.8</td><td>5</td><td>01:06.1</td><td>4</td><td>03:01.3</td><td>4</td></tr>
-                        <tr><td>71</td><td>Eddie Sanchez</td><td>North Crew</td><td>Men Advanced</td><td>10:00.0</td><td>5</td><td>+1:50.39</td><td>02:42.1</td><td>6</td><td>03:02.4</td><td>6</td><td>01:01.9</td><td>2</td><td>03:13.7</td><td>5</td></tr>
-                        <tr><td>53</td><td>Blas Meza </td><td>One Trail At a Time </td><td>Men Advanced</td><td>10:41.1</td><td>6</td><td>+2:31.41</td><td>02:40.7</td><td>5</td><td>02:44.9</td><td>4</td><td>01:06.5</td><td>6</td><td>04:09.0</td><td>7</td></tr>
-                        <tr><td>15</td><td>Arturo Garcia </td><td>Ciclismo Juarez</td><td>Men Advanced</td><td>14:15.7</td><td>7</td><td>+6:06.02</td><td>03:18.5</td><td>7</td><td>04:32.2</td><td>7</td><td>02:51.4</td><td>7</td><td>03:33.7</td><td>6</td></tr>
-                        <tr><td>76</td><td>Eric Sotomajor</td><td>The Shock Lab</td><td>Men Expert</td><td>08:04.1</td><td>1</td><td>&nbsp;</td><td>02:11.9</td><td>1</td><td>02:18.2</td><td>2</td><td>00:58.9</td><td>2</td><td>02:35.1</td><td>2</td></tr>
-                        <tr><td>78</td><td>Humberto Arevalo </td><td>The Shock Lab </td><td>Men Expert</td><td>08:22.7</td><td>2</td><td>+0:18.60</td><td>02:12.7</td><td>2</td><td>02:28.6</td><td>3</td><td>01:02.4</td><td>5</td><td>02:39.1</td><td>3</td></tr>
-                        <tr><td>56</td><td>Wayne Shaffer</td><td>Bycicle Experience </td><td>Men Expert</td><td>08:44.4</td><td>3</td><td>+0:40.24</td><td>02:27.6</td><td>3</td><td>02:32.8</td><td>4</td><td>00:55.7</td><td>1</td><td>02:48.3</td><td>4</td></tr>
-                        <tr><td>64</td><td>Corey Jones </td><td>&nbsp;</td><td>Men Expert</td><td>08:54.5</td><td>4</td><td>+0:50.42</td><td>02:31.6</td><td>6</td><td>01:51.6</td><td>1</td><td>01:59.3</td><td>7</td><td>02:32.0</td><td>1</td></tr>
-                        <tr><td>59</td><td>Sergio Acosta </td><td>Ciclismo Juarez</td><td>Men Expert</td><td>09:01.0</td><td>5</td><td>+0:56.87</td><td>02:31.4</td><td>5</td><td>02:34.4</td><td>5</td><td>01:01.8</td><td>4</td><td>02:53.5</td><td>5</td></tr>
-                        <tr><td>62</td><td>Edgar Ramirez</td><td>The Shock Lab</td><td>Men Expert</td><td>09:15.5</td><td>6</td><td>+1:11.40</td><td>02:31.2</td><td>4</td><td>02:39.0</td><td>6</td><td>01:11.1</td><td>6</td><td>02:54.2</td><td>6</td></tr>
-                        <tr><td>63</td><td>Hunt Burdick</td><td>&nbsp;</td><td>Men Expert</td><td>09:33.0</td><td>7</td><td>+1:28.83</td><td>02:41.5</td><td>7</td><td>02:48.9</td><td>7</td><td>00:59.2</td><td>3</td><td>03:03.3</td><td>7</td></tr>
-                        <tr><td>85</td><td>Arnold Rodriguez </td><td>&nbsp;</td><td>Men Intermediate </td><td>09:29.2</td><td>1</td><td>&nbsp;</td><td>02:26.6</td><td>1</td><td>03:01.3</td><td>2</td><td>01:10.7</td><td>2</td><td>02:50.7</td><td>2</td></tr>
-                        <tr><td>19</td><td>Luis Gallegos </td><td>&nbsp;</td><td>Men Intermediate </td><td>09:46.5</td><td>2</td><td>+0:17.27</td><td>02:38.3</td><td>5</td><td>03:01.6</td><td>3</td><td>01:07.2</td><td>1</td><td>02:59.4</td><td>3</td></tr>
-                        <tr><td>75</td><td>Josh Bell</td><td>Podium Finish</td><td>Men Intermediate </td><td>10:08.1</td><td>3</td><td>+0:38.90</td><td>02:36.9</td><td>4</td><td>02:44.1</td><td>1</td><td>01:12.6</td><td>3</td><td>03:34.5</td><td>5</td></tr>
-                        <tr><td>79</td><td>Tony Sanchez</td><td>&nbsp;</td><td>Men Intermediate </td><td>10:25.6</td><td>4</td><td>+0:56.34</td><td>02:34.1</td><td>3</td><td>03:08.2</td><td>4</td><td>01:25.8</td><td>6</td><td>03:17.4</td><td>4</td></tr>
-                        <tr><td>83</td><td>Efren Carranza</td><td>North Crew / The Shock Lab </td><td>Men Intermediate </td><td>11:01.3</td><td>5</td><td>+1:32.05</td><td>02:47.7</td><td>6</td><td>03:11.8</td><td>5</td><td>01:23.6</td><td>5</td><td>03:38.3</td><td>6</td></tr>
-                        <tr><td>86</td><td>Ramon Gamez</td><td>One Trail A Time </td><td>Men Intermediate </td><td>11:15.9</td><td>6</td><td>+1:46.73</td><td>02:55.2</td><td>7</td><td>03:20.4</td><td>7</td><td>01:20.2</td><td>4</td><td>03:40.0</td><td>7</td></tr>
-                        <tr><td>46</td><td>Eric Klauss</td><td>&nbsp;</td><td>Men Intermediate </td><td>11:41.5</td><td>7</td><td>+2:12.30</td><td>02:32.7</td><td>2</td><td>03:18.7</td><td>6</td><td>03:00.3</td><td>8</td><td>02:49.8</td><td>1</td></tr>
-                        <tr><td>70</td><td>Ricardo Lopez</td><td>Middle of Nowhere </td><td>Men Intermediate </td><td>14:38.5</td><td>8</td><td>+5:09.28</td><td>03:29.2</td><td>8</td><td>03:58.2</td><td>8</td><td>03:11.9</td><td>9</td><td>03:59.2</td><td>8</td></tr>
-                        <tr><td>87</td><td>David Benitez</td><td>&nbsp;</td><td>Men Intermediate </td><td>15:53.7</td><td>9</td><td>+6:24.54</td><td>04:21.7</td><td>9</td><td>04:32.1</td><td>9</td><td>02:59.9</td><td>7</td><td>04:00.0</td><td>9</td></tr>
-                        <tr><td>61</td><td>Teresa Hughes </td><td>Victory Racing</td><td>Women Open</td><td>10:43.5</td><td>1</td><td>&nbsp;</td><td>02:46.0</td><td>1</td><td>03:02.2</td><td>1</td><td>01:10.9</td><td>1</td><td>03:44.4</td><td>1</td></tr>
-                        <tr><td>60</td><td>Perla Reyes</td><td>&nbsp;</td><td>Women Open</td><td>14:57.5</td><td>2</td><td>+4:14.00</td><td>03:53.7</td><td>2</td><td>04:12.2</td><td>2</td><td>02:52.4</td><td>2</td><td>03:59.2</td><td>2</td></tr>
-                        <tr><td>4</td><td>Alexander Gutierrez</td><td>&nbsp;</td><td>Stage 5 - BANDIDO RUSH</td><td>02:14.6</td><td>1</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
-                        <tr><td>7</td><td>Corey Jones</td><td>&nbsp;</td><td>Stage 5 - BANDIDO RUSH</td><td>02:22.6</td><td>2</td><td>+0:08.02</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
-                        <tr><td>6</td><td>Eric Sotomajor</td><td>&nbsp;</td><td>Stage 5 - BANDIDO RUSH</td><td>02:36.7</td><td>3</td><td>+0:22.09</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
-                        <tr><td>5</td><td>wyatt Ivey</td><td>&nbsp;</td><td>Stage 5 - BANDIDO RUSH</td><td>02:45.3</td><td>4</td><td>+0:30.73</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
-                        <tr><td>3</td><td>Kevin Dunn </td><td>&nbsp;</td><td>Stage 5 - BANDIDO RUSH</td><td>02:48.8</td><td>5</td><td>+0:34.23</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
-                        <tr><td>2</td><td>Blas Meza</td><td>&nbsp;</td><td>Stage 5 - BANDIDO RUSH</td><td>02:51.4</td><td>6</td><td>+0:36.76</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
-                        <tr><td>9</td><td>Wayne Shaffer</td><td>&nbsp;</td><td>Stage 5 - BANDIDO RUSH</td><td>03:10.5</td><td>7</td><td>+0:55.88</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
-                        <tr><td>1</td><td>Teresa Hughes </td><td>&nbsp;</td><td>Stage 5 - BANDIDO RUSH</td><td>03:42.4</td><td>8</td><td>+1:27.82</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
-                        <tr><td>8</td><td>Luis Gallegos</td><td>&nbsp;</td><td>Stage 5 - BANDIDO RUSH</td><td>03:42.7</td><td>9</td><td>+1:28.10</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
-                        <tr><td>10</td><td>Max Guerra</td><td>&nbsp;</td><td>Stage 5 - BANDIDO RUSH</td><td>06:13.1</td><td>10</td><td>+3:58.45</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
-                        <tr><td>13</td><td>Rob Roughrider</td><td>&nbsp;</td><td>Stage 5 - BANDIDO RUSH</td><td>07:56.7</td><td>11</td><td>+5:42.05</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td></td></tr>
-                </tbody></table>
+    <thead><tr class="tableizer-firstrow"><th>RaceNumber</th><th>CardNumbers</th><th>Name</th><th>Club</th><th>CourseClass</th><th>RaceTime</th><th>NonCompetitive</th><th>Position</th><th>BehindTime</th><th>Stage 1 -  Kiddie Caution Time</th><th>Stage 1 -  Kiddie Caution Pos</th><th>Stage 2 -  Rim Job one Time</th><th>Stage 2 -  Rim Job one Pos</th><th>Stage 3 - Rim Job dos Time</th><th>Stage 3 - Rim Job dos Pos</th><th>Stage 4 - Shuttle Down  Time</th><th>Stage 4 - Shuttle Down  Pos</th></tr></thead><tbody>
+        <tr><td>84</td><td>8143955</td><td>Wyatt Ivey</td><td>&nbsp;</td><td>JR Men </td><td>09:39.5</td><td>N</td><td>1</td><td>&nbsp;</td><td>02:23.9</td><td>1</td><td>02:43.7</td><td>1</td><td>01:19.3</td><td>2</td><td>03:12.6</td><td>1</td></tr>
+        <tr><td>18</td><td>8143957</td><td>Max Guerra</td><td>&nbsp;</td><td>JR Men </td><td>11:29.8</td><td>N</td><td>2</td><td>+1:50.34</td><td>03:04.6</td><td>2</td><td>03:26.7</td><td>2</td><td>01:18.9</td><td>1</td><td>03:39.6</td><td>2</td></tr>
+        <tr><td>58</td><td>8032651</td><td>Alexander Gutierrez</td><td>One Trail At A Time</td><td>Men Advanced</td><td>08:09.6</td><td>N</td><td>1</td><td>&nbsp;</td><td>02:11.7</td><td>1</td><td>02:21.7</td><td>1</td><td>00:54.7</td><td>1</td><td>02:41.6</td><td>1</td></tr>
+        <tr><td>80</td><td>8143985</td><td>Kevin Dunn </td><td>&nbsp;</td><td>Men Advanced</td><td>09:00.1</td><td>N</td><td>2</td><td>+0:50.42</td><td>02:22.8</td><td>3</td><td>02:43.3</td><td>3</td><td>01:03.2</td><td>3</td><td>02:50.7</td><td>2</td></tr>
+        <tr><td>14</td><td>8032613</td><td>Joel Lujan </td><td>North Crew</td><td>Men Advanced</td><td>09:10.9</td><td>N</td><td>3</td><td>+1:01.27</td><td>02:30.3</td><td>4</td><td>02:41.1</td><td>2</td><td>01:06.2</td><td>5</td><td>02:53.4</td><td>3</td></tr>
+        <tr><td>57</td><td>8032653</td><td>Orlando Mendoza</td><td>&nbsp;</td><td>Men Advanced</td><td>09:20.2</td><td>N</td><td>4</td><td>+1:10.57</td><td>02:20.0</td><td>2</td><td>02:52.8</td><td>5</td><td>01:06.1</td><td>4</td><td>03:01.3</td><td>4</td></tr>
+        <tr><td>71</td><td>8032648</td><td>Eddie Sanchez</td><td>North Crew</td><td>Men Advanced</td><td>10:00.0</td><td>N</td><td>5</td><td>+1:50.39</td><td>02:42.1</td><td>6</td><td>03:02.4</td><td>6</td><td>01:01.9</td><td>2</td><td>03:13.7</td><td>5</td></tr>
+        <tr><td>53</td><td>8032619</td><td>Blas Meza </td><td>One Trail At a Time </td><td>Men Advanced</td><td>10:41.1</td><td>N</td><td>6</td><td>+2:31.41</td><td>02:40.7</td><td>5</td><td>02:44.9</td><td>4</td><td>01:06.5</td><td>6</td><td>04:09.0</td><td>7</td></tr>
+        <tr><td>15</td><td>8032674</td><td>Arturo Garcia </td><td>Ciclismo Juarez</td><td>Men Advanced</td><td>14:15.7</td><td>N</td><td>7</td><td>+6:06.02</td><td>03:18.5</td><td>7</td><td>04:32.2</td><td>7</td><td>02:51.4</td><td>7</td><td>03:33.7</td><td>6</td></tr>
+        <tr><td>76</td><td>8032668</td><td>Eric Sotomajor</td><td>The Shock Lab</td><td>Men Expert</td><td>08:04.1</td><td>N</td><td>1</td><td>&nbsp;</td><td>02:11.9</td><td>1</td><td>02:18.2</td><td>2</td><td>00:58.9</td><td>2</td><td>02:35.1</td><td>2</td></tr>
+        <tr><td>78</td><td>8032634</td><td>Humberto Arevalo </td><td>The Shock Lab </td><td>Men Expert</td><td>08:22.7</td><td>N</td><td>2</td><td>+0:18.60</td><td>02:12.7</td><td>2</td><td>02:28.6</td><td>3</td><td>01:02.4</td><td>5</td><td>02:39.1</td><td>3</td></tr>
+        <tr><td>56</td><td>8032662</td><td>Wayne Shaffer</td><td>Bycicle Experience </td><td>Men Expert</td><td>08:44.4</td><td>N</td><td>3</td><td>+0:40.24</td><td>02:27.6</td><td>3</td><td>02:32.8</td><td>4</td><td>00:55.7</td><td>1</td><td>02:48.3</td><td>4</td></tr>
+        <tr><td>64</td><td>8032615</td><td>Corey Jones </td><td>&nbsp;</td><td>Men Expert</td><td>08:54.5</td><td>N</td><td>4</td><td>+0:50.42</td><td>02:31.6</td><td>6</td><td>01:51.6</td><td>1</td><td>01:59.3</td><td>7</td><td>02:32.0</td><td>1</td></tr>
+        <tr><td>59</td><td>8032637</td><td>Sergio Acosta </td><td>Ciclismo Juarez</td><td>Men Expert</td><td>09:01.0</td><td>N</td><td>5</td><td>+0:56.87</td><td>02:31.4</td><td>5</td><td>02:34.4</td><td>5</td><td>01:01.8</td><td>4</td><td>02:53.5</td><td>5</td></tr>
+        <tr><td>62</td><td>8032630</td><td>Edgar Ramirez</td><td>The Shock Lab</td><td>Men Expert</td><td>09:15.5</td><td>N</td><td>6</td><td>+1:11.40</td><td>02:31.2</td><td>4</td><td>02:39.0</td><td>6</td><td>01:11.1</td><td>6</td><td>02:54.2</td><td>6</td></tr>
+        <tr><td>63</td><td>8032611</td><td>Hunt Burdick</td><td>&nbsp;</td><td>Men Expert</td><td>09:33.0</td><td>N</td><td>7</td><td>+1:28.83</td><td>02:41.5</td><td>7</td><td>02:48.9</td><td>7</td><td>00:59.2</td><td>3</td><td>03:03.3</td><td>7</td></tr>
+        <tr><td>85</td><td>8032640</td><td>Arnold Rodriguez </td><td>&nbsp;</td><td>Men Intermediate </td><td>09:29.2</td><td>N</td><td>1</td><td>&nbsp;</td><td>02:26.6</td><td>1</td><td>03:01.3</td><td>2</td><td>01:10.7</td><td>2</td><td>02:50.7</td><td>2</td></tr>
+        <tr><td>19</td><td>8032646</td><td>Luis Gallegos </td><td>&nbsp;</td><td>Men Intermediate </td><td>09:46.5</td><td>N</td><td>2</td><td>+0:17.27</td><td>02:38.3</td><td>5</td><td>03:01.6</td><td>3</td><td>01:07.2</td><td>1</td><td>02:59.4</td><td>3</td></tr>
+        <tr><td>75</td><td>8032609</td><td>Josh Bell</td><td>Podium Finish</td><td>Men Intermediate </td><td>10:08.1</td><td>N</td><td>3</td><td>+0:38.90</td><td>02:36.9</td><td>4</td><td>02:44.1</td><td>1</td><td>01:12.6</td><td>3</td><td>03:34.5</td><td>5</td></tr>
+        <tr><td>79</td><td>8032677</td><td>Tony Sanchez</td><td>&nbsp;</td><td>Men Intermediate </td><td>10:25.6</td><td>N</td><td>4</td><td>+0:56.34</td><td>02:34.1</td><td>3</td><td>03:08.2</td><td>4</td><td>01:25.8</td><td>6</td><td>03:17.4</td><td>4</td></tr>
+        <tr><td>83</td><td>8032645</td><td>Efren Carranza</td><td>North Crew / The Shock Lab </td><td>Men Intermediate </td><td>11:01.3</td><td>N</td><td>5</td><td>+1:32.05</td><td>02:47.7</td><td>6</td><td>03:11.8</td><td>5</td><td>01:23.6</td><td>5</td><td>03:38.3</td><td>6</td></tr>
+        <tr><td>86</td><td>8032642</td><td>Ramon Gamez</td><td>One Trail A Time </td><td>Men Intermediate </td><td>11:15.9</td><td>N</td><td>6</td><td>+1:46.73</td><td>02:55.2</td><td>7</td><td>03:20.4</td><td>7</td><td>01:20.2</td><td>4</td><td>03:40.0</td><td>7</td></tr>
+        <tr><td>46</td><td>8032608</td><td>Eric Klauss</td><td>&nbsp;</td><td>Men Intermediate </td><td>11:41.5</td><td>N</td><td>7</td><td>+2:12.30</td><td>02:32.7</td><td>2</td><td>03:18.7</td><td>6</td><td>03:00.3</td><td>8</td><td>02:49.8</td><td>1</td></tr>
+        <tr><td>70</td><td>8143978</td><td>Ricardo Lopez</td><td>Middle of Nowhere </td><td>Men Intermediate </td><td>14:38.5</td><td>N</td><td>8</td><td>+5:09.28</td><td>03:29.2</td><td>8</td><td>03:58.2</td><td>8</td><td>03:11.9</td><td>9</td><td>03:59.2</td><td>8</td></tr>
+        <tr><td>87</td><td>8032616</td><td>David Benitez</td><td>&nbsp;</td><td>Men Intermediate </td><td>15:53.7</td><td>N</td><td>9</td><td>+6:24.54</td><td>04:21.7</td><td>9</td><td>04:32.1</td><td>9</td><td>02:59.9</td><td>7</td><td>04:00.0</td><td>9</td></tr>
+        <tr><td>61</td><td>8032655</td><td>Teresa Hughes </td><td>Victory Racing</td><td>Women Open</td><td>10:43.5</td><td>N</td><td>1</td><td>&nbsp;</td><td>02:46.0</td><td>1</td><td>03:02.2</td><td>1</td><td>01:10.9</td><td>1</td><td>03:44.4</td><td>1</td></tr>
+        <tr><td>60</td><td>8032618</td><td>Perla Reyes</td><td>&nbsp;</td><td>Women Open</td><td>14:57.5</td><td>N</td><td>2</td><td>+4:14.00</td><td>03:53.7</td><td>2</td><td>04:12.2</td><td>2</td><td>02:52.4</td><td>2</td><td>03:59.2</td><td>2</td></tr>
+        <tr><td>4</td><td>8032657</td><td>Alexander Gutierrez</td><td>&nbsp;</td><td>Stage 5 - BANDIDO RUSH</td><td>02:14.6</td><td>N</td><td>1</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+        <tr><td>7</td><td>8032676</td><td>Corey Jones</td><td>&nbsp;</td><td>Stage 5 - BANDIDO RUSH</td><td>02:22.6</td><td>N</td><td>2</td><td>+0:08.02</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+        <tr><td>6</td><td>8143954</td><td>Eric Sotomajor</td><td>&nbsp;</td><td>Stage 5 - BANDIDO RUSH</td><td>02:36.7</td><td>N</td><td>3</td><td>+0:22.09</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+        <tr><td>5</td><td>8032652</td><td>wyatt Ivey</td><td>&nbsp;</td><td>Stage 5 - BANDIDO RUSH</td><td>02:45.3</td><td>N</td><td>4</td><td>+0:30.73</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+        <tr><td>3</td><td>8032643</td><td>Kevin Dunn </td><td>&nbsp;</td><td>Stage 5 - BANDIDO RUSH</td><td>02:48.8</td><td>N</td><td>5</td><td>+0:34.23</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+        <tr><td>2</td><td>8143982</td><td>Blas Meza</td><td>&nbsp;</td><td>Stage 5 - BANDIDO RUSH</td><td>02:51.4</td><td>N</td><td>6</td><td>+0:36.76</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+        <tr><td>9</td><td>8032666</td><td>Wayne Shaffer</td><td>&nbsp;</td><td>Stage 5 - BANDIDO RUSH</td><td>03:10.5</td><td>N</td><td>7</td><td>+0:55.88</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+        <tr><td>1</td><td>8143965</td><td>Teresa Hughes </td><td>&nbsp;</td><td>Stage 5 - BANDIDO RUSH</td><td>03:42.4</td><td>N</td><td>8</td><td>+1:27.82</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+        <tr><td>8</td><td>8143975</td><td>Luis Gallegos</td><td>&nbsp;</td><td>Stage 5 - BANDIDO RUSH</td><td>03:42.7</td><td>N</td><td>9</td><td>+1:28.10</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+        <tr><td>10</td><td>8143980</td><td>Max Guerra</td><td>&nbsp;</td><td>Stage 5 - BANDIDO RUSH</td><td>06:13.1</td><td>N</td><td>10</td><td>+3:58.45</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+        <tr><td>13</td><td>8032622</td><td>Rob Roughrider</td><td>&nbsp;</td><td>Stage 5 - BANDIDO RUSH</td><td>07:56.7</td><td>N</td><td>11</td><td>+5:42.05</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td></td></tr>
+    </tbody></table>
                 <CSVLink className="downloadLink" data={csvRoughRider}>Download Results</CSVLink>  
         </div>
     </div>
