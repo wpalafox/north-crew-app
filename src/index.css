@@ -24,3 +24,8 @@ code {
   src:  url(./fonts/Rockbiter-MvwB.ttf);
 }
 
+
+@font-face {
+  font-family: 'north-face';
+  src:  url(./fonts/NorthFace.ttf);
+}
