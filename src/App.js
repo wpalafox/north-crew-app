@@ -156,9 +156,30 @@ const news_links = data.map((item) =>
              
 
               <div className='seriesPanel'>
-                    <p className='seriesheader'>
-                    2021 Season:
+              <p className='seriesheader'>
+                    2022 Season:
                     </p>
+                  <ul className='AtAGlance'>
+                      <li className="rockbiter-race">LOST DOG AT NIGHT | 9/4/2022 | <a href="https://www.bikereg.com/ependuroldnite"   class="btn btn-danger" role="button"><b>REGISTER</b></a>   </li> 
+                    
+                      <li className="rockbiter-race">FRANKLIN MOUNTAINS | 10/2/2022   </li>
+                      
+                     
+                      <li className="rockbiter-race">LOST DOG | 11/20/2022  </li>
+
+                      <li className="rockbiter-race">MONKS | 12/18/2022  </li>
+
+                      
+                   
+                      
+                  </ul>
+                  
+                  
+                  
+                  
+                  <p className='seriesheader'>
+                  2021 Season:
+                  </p>
                   <ul className='AtAGlance'>
                       <li className="rockbiter-race">Monks Mayhem | 10/23/2021   </li> 
                       <li className='results-line'><a href="/monks_2021"  class="btn btn-info" role="button"><b>RESULTS</b></a>   </li> 
