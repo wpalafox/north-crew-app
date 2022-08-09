@@ -24,7 +24,7 @@ import pablo_hustle from './pics/pablo_hustling.jpg';
 import rr_1 from './pics/rr_1.jpg';
 import rr_2 from './pics/rr_2.jpg';
 import rr_3 from './pics/rr_3.jpg';
-
+import Countdown from 'react-countdown';
 
 
 function App() {
@@ -74,7 +74,37 @@ const news_links = data.map((item) =>
  );
   
   
-  
+  /*
+
+  Old News Div 
+  <div className='background-news'>
+
+        <h1 className="rockbiter-race news">News </h1> 
+    
+      <div className='container'>
+
+
+
+         <ul id="news-list" className="list-group test">
+            {news_links}
+                      
+       
+       
+        </ul>
+
+
+
+
+        </div>
+
+
+
+
+  </div>;
+      
+
+
+  */
   
   
   
@@ -90,15 +120,24 @@ const news_links = data.map((item) =>
     
             <a target="_blank" title="Dicklyon, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:El_Paso_Franklin_Mountains_and_Scenic_Drive_aerial.jpg"><img id="hero-image" src={rocky_mountain_hero} alt="ep mountain" ></img></a>
         
-      
+            <div id="register-header">
+                Lost Dog at Night <a class="btn btn-danger" href="https://www.bikereg.com/ependuroldnite" role="button">REGISTER</a> September 4th, 2022
+
+
+
+
+            </div>
        
         
         
         
         <header className="App-header">
           <div id='home-page' className='container'>
-        
-          
+           
+            
+         
+         
+         
           <img src={ep_logo} className="App-logo pulse" alt="logo" />
           
               <p className='introduction'>
@@ -180,30 +219,6 @@ const news_links = data.map((item) =>
         </AwesomeSlider>
         </div>
         
-        <div className='background-news'>
-
-        <h1 className="rockbiter-race news">News </h1> 
-    
-      <div className='container'>
-
-
-
-         <ul id="news-list" className="list-group test">
-            {news_links}
-                      
-       
-       
-        </ul>
-
-
-
-
-        </div>
-
-
-
-
-  </div>;
       
 
   

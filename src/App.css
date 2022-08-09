@@ -18,6 +18,17 @@
 
 }
 
+#register-header{
+  margin: 2%;
+  font-family: 'rock_biter';
+  color:whitesmoke ;
+  font-size: 200%;
+  background-color: black;
+  border: 2px solid rgba(161, 127, 26);
+  border-radius: 25px;
+
+}
+
 .rockbiter-race{
   font-family: 'rock_biter';
   color:whitesmoke ;

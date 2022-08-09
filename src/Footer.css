@@ -18,8 +18,20 @@
 #copyright{
     display: flex;
     align-items: right;
-    font-size: smaller;
+    font-size: 100%;
     color: tomato;
+}
+
+#bottom-lines{
+    padding-top: 10%;
+}
+
+#websites-elpaso{
+    font-family: "rock_biter";
+    font-size: 100%;
+    display: flex;
+    align-items: right;
+    color: #00FFFF;
 }
 
 .merol-racing{

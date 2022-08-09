@@ -15,36 +15,18 @@ import merol_logo from  './pics/sponsor-merol.svg';
 import shock_logo from './pics/The_shock_lab_black_logo.svg';
 import merol_racing from './pics/merolracing.svg';
 import blackground_geo from './pics/black-geometric-wallpaper.jpg'
+import websites_elpaso from './pics/websites-elpaso-logo.png'
 
+/*
 
-
-
-export default function Footer() {
-    return (
-    <div className="footer-enduro" style={{ backgroundImage: `url(${blackground_geo})` }} >
-        <div className="container">
-           
-
-            
-
-            <div className="row">
-                <div className="col-4">
+ <div className="col-4">
                         <a href="https://www.huntcompanies.com/"  target="_blank"> <img src={hunt_logo} className="logo-image" alt="Logo" /></a>
                 </div>
-                <div className="col-4">
-                    <a href="https://www.theshocklab.com/"  target="_blank"><img src={shock_logo} className="logo-image" alt="Logo" /></a>
-                </div>
-                <div className="col-4">
+     <div className="col-4">
                     <a href="http://www.bmbaelpaso.org/"  target="_blank"><img src={bmba_logo} className="logo-image" alt="Logo" /></a>
                 </div>
-            </div>
-           
-           
-           
-           
-           
-           
-           
+
+      
             <div className="row">
                 <div className="col-4">
                     <a href="https://www.handskegloves.com/"  target="_blank"><img src={handske_logo} className="logo-image" alt="Logo" /></a>
@@ -57,13 +39,11 @@ export default function Footer() {
                 </div>
             </div>
 
-            <div className="row">
+             <div className="row">
                 <div className="col-4">
                     <a href="https://www.airrosti.com/location/Texas/SUMM/"  target="_blank"><img src={airrosti_logo} className="logo-image" alt="Logo" /></a>
                 </div>
-                <div className="col-4">
-                    <a href="https://pollofelizjrz.com/"  target="_blank"><img src={pollo_logo} className="logo-image" alt="Logo" /></a>
-                </div>
+              
                 <div className="col-4">
                     <a href="https://podiumfinishsportcafe.com/"  target="_blank"><img src={podium_logo} className="logo-image" alt="Logo" /></a>
                 </div>
@@ -88,12 +68,55 @@ export default function Footer() {
                 
             </div>
 
+
+*/
+
+export default function Footer() {
+    return (
+    <div className="footer-enduro" style={{ backgroundImage: `url(${blackground_geo})` }} >
+        <div className="container">
+           
+
+            
+
             <div className="row">
+                <div className="col-4">
+                        <a href="https://podiumfinishsportcafe.com/"  target="_blank"><img src={podium_logo} className="logo-image" alt="Logo" /></a>
+                    </div>
+                <div className="col-4">
+                    <a href="https://pollofelizjrz.com/"  target="_blank"><img src={pollo_logo} className="logo-image" alt="Logo" /></a>
+                </div>
+                
+                
+                
+                
+                
+                <div className="col-4">
+                    <a href="https://www.theshocklab.com/"  target="_blank"><img src={shock_logo} className="logo-image" alt="Logo" /></a>
+                </div>
+           
+            </div>
+           
+           
+           
+           
+           
+           
+         
+
+           
+
+            <div id ="bottom-lines" className="row">
                
                 
                 
-                <div className="col-12">
+                <div className="col-sm-6">
                     <p id='copyright'>Copyright © 2022 MEROL RACING LLC. All rights reserved.</p>
+                </div>
+
+
+                <div className="col-sm-6">
+                    <p id='websites-elpaso'>Designed and Developed by Websites El Paso LLC.          </p>
                 </div>
 
                 
