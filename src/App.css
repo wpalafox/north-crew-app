@@ -12,7 +12,7 @@
 }
 
 #home-page{
-  background-color: black;
+  background-color: #0c0404;
   border: 2px solid rgba(161, 127, 26);
   border-radius: 25px;
 
@@ -21,9 +21,9 @@
 #register-header{
   margin: 2%;
   font-family: 'rock_biter';
-  color:whitesmoke ;
+  color: #E1D9D1  ;
   font-size: 200%;
-  background-color: black;
+  background-color: #0c0404;
   border: 2px solid rgba(161, 127, 26);
   border-radius: 25px;
 
@@ -31,8 +31,10 @@
 
 .rockbiter-race{
   font-family: 'rock_biter';
-  color:whitesmoke ;
+  color: #E1D9D1 ;
+  
 }
+
 
 .results-line{
   list-style-type: none;
@@ -118,7 +120,7 @@ li{
 }
 
 p{
-  color:whitesmoke ;
+  color:#E1D9D1 ;
 }
 
 .App-header {
@@ -129,7 +131,7 @@ p{
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #E1D9D1 ;
   padding-top: 2%;
   padding-bottom: 2%;
 }
