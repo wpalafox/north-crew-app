@@ -97,6 +97,17 @@ export default function Footer() {
            
             </div>
            
+
+            <div className="row">
+                <div className="col-6">
+                    <a href="https://www.handskegloves.com/"  target="_blank"><img src={handske_logo} className="logo-image" alt="Logo" /></a>
+                </div>
+                <div className="col-6">
+                    <a href="https://www.merolracing.com/"  target="_blank"><img src={merol_logo} className="logo-image" alt="Logo" /></a>
+                </div>
+        
+            </div>
+
            
            
            
