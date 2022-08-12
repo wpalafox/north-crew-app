@@ -10,7 +10,7 @@ import kogel_logo from './pics/Kogel_White_Logo.svg';
 import masEP_logo from './pics/MasEP.svg';
 import pollo_logo from './pics/POLLO_LOGO_ORIGINAL.svg';
 import bmba_logo from './pics/sponsor-bmba.png';
-import handske_logo from './pics/sponsor-handske.png';
+import handske_logo from './pics/sponsor-handske.svg';
 import merol_logo from  './pics/sponsor-merol.svg';
 import shock_logo from './pics/The_shock_lab_black_logo.svg';
 import merol_racing from './pics/merolracing.svg';
