@@ -152,11 +152,14 @@ export default function Footer() {
             <div className="row">
                 
                
-                <div className="col-6">
+                <div className="col-4">
                     <a href="https://www.facebook.com/maselpaso"  target="_blank">   <img src={masEP_logo} className="logo-image" alt="Logo" /></a>
                 </div>
-                <div className="col-6">
+                <div className="col-4">
                     <a href="https://www.benekeith.com/beverage/"  target="_blank"><img src={BenEKeith} className="logo-image" alt="Logo" /></a>
+                </div>
+                <div className="col-4">
+                    <a href="http://www.bmbaelpaso.org/"  target="_blank"><img src={bmba_logo} className="logo-image" alt="Logo" /></a>
                 </div>
             </div>
 
