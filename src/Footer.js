@@ -4,7 +4,7 @@ import podium_logo from './pics/Podium_Finish_Logo.png';
 import airrosti_logo from './pics/airrosti_whiteback.png';
 import dog_logo from './pics/dogspeed_white.png';
 import drip_logo from './pics/Drip_Drive_whiteback.png';
-//import hunt_logo from './pics/HUNTComPNG.png';
+import hunt_logo from './pics/HUNTComPNG.png';
 import kogel_logo from './pics/Kogel_White_Logo.png';
 import masEP_logo from './pics/MASEP_new.png';
 import pollo_logo from './pics/POLLO_LOGO_ORIGINAL.svg';
@@ -140,7 +140,7 @@ export default function Footer() {
                     <a href="https://www.handskegloves.com/"  target="_blank"><img src={handske_logo} className="logo-image" alt="Logo" /></a>
                 </div>
                 <div className="col-4">
-                    <a href="https://www.merolracing.com/"  target="_blank"><img src={merol_logo} className="logo-image" alt="Logo" /></a>
+                        <a href="https://www.huntcommunities.com/"  target="_blank"> <img src={hunt_logo} className="logo-image" alt="Logo" /></a>
                 </div>
 
                 <div className="col-4">
