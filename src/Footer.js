@@ -4,7 +4,7 @@ import podium_logo from './pics/Podium_Finish_Logo.png';
 import airrosti_logo from './pics/airrosti_whiteback.png';
 import dog_logo from './pics/dogspeed_white.png';
 import drip_logo from './pics/Drip_Drive_whiteback.png';
-import hunt_logo from './pics/HUNTComPNG.png';
+//import hunt_logo from './pics/HUNTComPNG.png';
 import kogel_logo from './pics/Kogel_White_Logo.png';
 import masEP_logo from './pics/MASEP_new.png';
 import pollo_logo from './pics/POLLO_LOGO_ORIGINAL.svg';
@@ -18,7 +18,7 @@ import blackground_geo from './pics/black-geometric-wallpaper.jpg';
 import websites_elpaso from './pics/websites-elpaso-logo.png';
 import BenEKeith from './pics/benEkeithsponsor.svg';
 import BorderBikes from './pics/border_bikes_logo.png';
-import Onin_Staffing from './pics/Onin_Staffing.png';
+//import Onin_Staffing from './pics/Onin_Staffing.png';
 
 /*
 

@@ -3,7 +3,7 @@ import './Races.css'
 
 import 'react-awesome-slider/dist/styles.css';
 
-import results_image from './pics/mountain_image_edited.jpg';
+import results_image from './pics/results_shocklab.jpg';
 
 
 
