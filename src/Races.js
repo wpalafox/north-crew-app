@@ -39,21 +39,21 @@ export default function Races() {
      );
     
     return (
-    
    
+    
+        //<img id="results-image" src={results_image} alt="ep mountain bike race results"></img>
+            <div className='race_list'> 
+         
+       
         
-     <div className='race_list'> 
+            <div id="race-list" className='container'>
+            
 
-        <img id="results-image" src={results_image} alt="ep mountain results"></img>
-        
-        <div id="race-list" className='container'>
-          
-
-        <h1 className='results_season'>2021 Season</h1>
-        <ul id="race-list-test" className="list-group test">
-            {race_links}
-                      
-        </ul>
+            <h1 className='results_season'>2021 Season</h1>
+            <ul id="race-list-test" className="list-group test">
+                {race_links}
+                        
+            </ul>
 
 
     
@@ -71,7 +71,7 @@ export default function Races() {
     
     
     </div>  
-
+  
 
     )
 }
