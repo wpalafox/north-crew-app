@@ -109,7 +109,7 @@ function closePopUp(){
         <div className="form-group row" id="message-row">
             <label for="staticMessage" class="col-sm-3 col-form-label"><b>Message</b></label>
             <div class="col-sm-3">
-                <textarea name="message" placeholder='I have questions about my recent registration or how could I volunteer for the next event?'   />
+                <textarea name="message" placeholder='I have questions about my recent registration/How can my company sponsor the series?/how could I volunteer for the next event?'   />
             </div>
 
         </div>

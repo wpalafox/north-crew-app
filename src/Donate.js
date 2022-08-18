@@ -2,20 +2,22 @@ import React from 'react';
 import './Donate.css';
 import donate_header from './pics/donate_header.jpg';
 
+  //<img className="donate-image" src={donate_header} alt="donate header"></img>
+
 export default function Donate() {
     return (
         <div>
-            <img className="donate-image" src={donate_header} alt="donate header"></img>
+          
             <div className='Donate'>
                  
                 <div id= "blackbox" className='container'>
    
                
                     
-                    <h2>
+                    <h1>
                     
-                    If you can afford to donate: Help us organize more enduro races! And ensure the longevity and sustainability of our trail systems.
-                    </h2>
+                    Yo, if you can afford to donate: help us organize more enduro races! And ensure the longevity and sustainability of our trail systems.
+                    </h1>
                     
                 
                 

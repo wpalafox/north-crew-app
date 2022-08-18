@@ -30,9 +30,7 @@ export default function NavBar() {
                             <li className="nav-item">
                                 <a className="nav-link" href="/contactus">Contact Us</a> 
                             </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="/donate">Donate</a>
-                        </li>
+                      
                         </ul>
 
                        <ul class="navbar-nav ms-auto">

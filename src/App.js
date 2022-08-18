@@ -25,6 +25,7 @@ import rr_1 from './pics/rr_1.jpg';
 import rr_2 from './pics/rr_2.jpg';
 import rr_3 from './pics/rr_3.jpg';
 import Countdown from 'react-countdown';
+import Donate from './Donate.js';
 
 
 function App() {
@@ -212,6 +213,8 @@ const news_links = data.map((item) =>
          
           </div>
         </header>
+        <h1 className="rockbiter-race news">Donate  </h1> 
+        <Donate />
 
 
 
