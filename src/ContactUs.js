@@ -1,11 +1,39 @@
+import { useState, useEffect } from 'react';
 import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
 import './ContactUs.css';
 import header_contactus from './pics/new_contact_us.jpg';
+import Popup from './components/Popup';
 
 
 export const ContactUs = () => {
-  const form = useRef();
+  
+  
+  //Pop notification
+  const [button0Popup, setButton0Popup] = useState(false);
+  
+  
+  function successFulSend(){
+  
+    setButton0Popup(true);
+
+
+}
+
+
+function closePopUp(){
+    setButton0Popup(false);
+}
+  
+  
+  
+  
+  
+  
+  
+  //Contact Form Business Logic
+  
+    const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -13,7 +41,7 @@ export const ContactUs = () => {
     emailjs.sendForm('service_qagm5a2', 'template_e3px2j7', form.current, 'user_CWdJOLLP4bbWJ6XGnW9ZG')
       .then((result) => {
           console.log(result.text);
-          alert("Message Sent!")
+          successFulSend();
       }, (error) => {
           console.log(error.text);
       });
@@ -24,6 +52,15 @@ export const ContactUs = () => {
     <div className='center'>
     
     <img className="contact-us-image" id="contact-us-pic" src={header_contactus} alt="contact us header"></img>
+
+
+    <Popup trigger={button0Popup} setTrigger={setButton0Popup}>
+              
+            
+            <button onClick={closePopUp}>Close</button> 
+                    
+            
+    </Popup>
 
     
     <form ref={form} onSubmit={sendEmail}>
