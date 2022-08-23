@@ -18,6 +18,8 @@ import blackground_geo from './pics/black-geometric-wallpaper.jpg';
 import websites_elpaso from './pics/websites-elpaso-logo.png';
 import BenEKeith from './pics/benEkeithsponsor.svg';
 import BorderBikes from './pics/border_bikes_logo.png';
+import HustleBikes from './pics/hustle-labs-facebook.png';
+import BlackOx from './pics/blackOx.png';
 //import Onin_Staffing from './pics/Onin_Staffing.png';
 
 /*
@@ -161,6 +163,19 @@ export default function Footer() {
                 <div className="col-4">
                     <a href="http://www.bmbaelpaso.org/"  target="_blank"><img src={bmba_logo} className="logo-image" alt="Logo" /></a>
                 </div>
+            </div>
+
+            <div className="row">
+                
+               
+                <div className="col-6">
+                    <a href="https://hustlebikelabs.com/"  target="_blank"><img src={HustleBikes} className="logo-image" alt="Logo" /></a>
+                </div>
+
+                <div className="col-6">
+                    <a href="https://blackoxsealant.com/"  target="_blank"><img src={BlackOx} className="logo-image" alt="Logo" /></a>
+                </div>
+               
             </div>
 
         
