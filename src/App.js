@@ -124,8 +124,8 @@ const news_links = data.map((item) =>
     
            
         
-            <div id="register-header">
-                 <img src={Map} alt="map_ld_nite" />  <br/>
+            <div className='container' id="register-header">
+                 <img src={Map} id="home-image" alt="map_ld_nite" />  <br/>
                 
                 
                  September 4th, 2022 @ 6:00PM <br/>
