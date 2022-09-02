@@ -125,8 +125,13 @@ const news_links = data.map((item) =>
            
         
             <div id="register-header">
-                 <img src={Map} alt="map_ld_nite" /> <br></br>
-                 September 4th, 2022
+                 <img src={Map} alt="map_ld_nite" />  <br/>
+                
+                
+                 September 4th, 2022 @ 6:00PM <br/>
+                 Lost Dog Trailhead: 6936 Cactus Thrush Drive, El Paso, TX 79911 <br/>
+                 Essentials to bring: Race ready Bike, Helmet, and Charged Lights
+
 
 
 
