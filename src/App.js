@@ -125,7 +125,8 @@ const news_links = data.map((item) =>
            
         
             <div id="register-header">
-                Lost Dog at Night     <img src={Map} alt="map_ld_nite" />  September 4th, 2022
+                 <img src={Map} alt="map_ld_nite" /> <br></br>
+                 September 4th, 2022
 
 
 
