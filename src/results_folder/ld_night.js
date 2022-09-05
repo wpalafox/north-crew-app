@@ -896,8 +896,8 @@ export default function franklin() {
             <div className='container'>
                 <h1 className='gold-0'>DARKDURO 2022</h1>
 
-            <table class="tableizer-table">
-                <thead><tr class="tableizer-firstrow"><th>RaceNumber</th><th>Name</th><th>Club</th><th>CourseClass</th><th>RaceTime</th><th>Position</th><th>Status</th><th>BehindTime</th><th>Stage 1 - 10 Min  Time</th><th>Stage 1 - 10 Min  Pos</th><th>Stage 2 - Brujos west Time</th><th>Stage 2 - Brujos west Pos</th><th>Stage 3 - Brujos blitz Time</th><th>Stage 3 - Brujos blitz Pos</th><th>Stage 4 - Broke Back  Time</th><th>Stage 4 - Broke Back  Pos</th></tr></thead><tbody>
+            <table className="tableizer-table">
+                <thead><tr className="tableizer-firstrow"><th>RaceNumber</th><th>Name</th><th>Club</th><th>CourseClass</th><th>RaceTime</th><th>Position</th><th>Status</th><th>BehindTime</th><th>Stage 1 - 10 Min  Time</th><th>Stage 1 - 10 Min  Pos</th><th>Stage 2 - Brujos west Time</th><th>Stage 2 - Brujos west Pos</th><th>Stage 3 - Brujos blitz Time</th><th>Stage 3 - Brujos blitz Pos</th><th>Stage 4 - Broke Back  Time</th><th>Stage 4 - Broke Back  Pos</th></tr></thead><tbody>
                 <tr><td>100</td><td>Manny Arellano</td><td>&nbsp;</td><td>Men 50+</td><td>&nbsp;</td><td>&nbsp;</td><td>DNF</td><td>&nbsp;</td><td>02:47.5</td><td>&nbsp;</td><td>02:36.2</td><td>&nbsp;</td><td>01:31.9</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
                 <tr><td>7</td><td>Christopher Beversdorf</td><td>TACOCAT</td><td>Men Beginner Open</td><td>10:11.5</td><td>1</td><td>&nbsp;</td><td>&nbsp;</td><td>02:24.6</td><td>3</td><td>02:24.2</td><td>2</td><td>01:20.4</td><td>2</td><td>04:02.3</td><td>2</td></tr>
                 <tr><td>4</td><td>Rene De La O</td><td>&nbsp;</td><td>Men Beginner Open</td><td>10:25.7</td><td>2</td><td>&nbsp;</td><td>+0:14.12</td><td>02:20.6</td><td>2</td><td>02:30.9</td><td>3</td><td>01:21.2</td><td>3</td><td>04:12.9</td><td>3</td></tr>
