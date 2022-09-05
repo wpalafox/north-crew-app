@@ -19,8 +19,9 @@ import Monks from './results_folder/Monks_Mayhem.js'
 import Dog from './results_folder/lost_enduro.js'
 import Franklin from './results_folder/franklin.js'
 import Rider from './results_folder/rough_rider.js'
-import News from './News.js'
+import Darkduro from './results_folder/ld_night.js'
 
+import News from './News.js'
 
 
 
@@ -38,6 +39,7 @@ ReactDOM.render(
       <Route path="/lost_dog_2021" element={<Dog />} />
       <Route path="/franklin_2021" element={<Franklin />} />
       <Route path="/rider_2021" element={<Rider />} />
+      <Route path="/lost_dog_night_2022" element={<Darkduro />} />
       <Route path="*" element={<NotFound />} />
 
       
