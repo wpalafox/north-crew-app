@@ -158,10 +158,10 @@ const news_links = data.map((item) =>
                     2022 Season:
                     </p>
                   <ul className='AtAGlance'>
-                      <li className="rockbiter-race">LOST DOG AT NIGHT | 9/4/2022 | </li>
+                      <li className="rockbiter-race">LOST DOG AT NIGHT | 9/4/2022  </li>
                       <li className='results-line'><a href="/lost_dog_night_2022"  class="btn btn-info" role="button"><b>RESULTS</b></a> </li>   
                     
-                      <li className="rockbiter-race">FRANKLIN MOUNTAINS | 10/2/2022 |  </li>
+                      <li className="rockbiter-race">FRANKLIN MOUNTAINS | 10/2/2022   </li>
                       <li className='results-line'><a href="https://www.bikereg.com/ependuro2" target="_blank"  class="btn btn-danger" role="button"><b>REGISTER</b></a>    </li>
                       
                      
@@ -181,7 +181,7 @@ const news_links = data.map((item) =>
                   2021 Season:
                   </p>
                   <ul className='AtAGlance'>
-                      <li className="rockbiter-race">Monks Mayhem | 10/23/2021   </li> 
+                      <li className="rockbiter-race">Monks Mayhem | 10/23/2021    </li> 
                       <li className='results-line'><a href="/monks_2021"  class="btn btn-info" role="button"><b>RESULTS</b></a>   </li> 
                       <li className="rockbiter-race">Lost Dog Enduro | 11/21/2021    </li>
                       <li className='results-line'><a href="/lost_dog_2021"   class="btn btn-info" role="button"><b>RESULTS</b></a>   </li> 
@@ -189,7 +189,7 @@ const news_links = data.map((item) =>
                       <li className="rockbiter-race">Franklin Mountains | 12/18/2021   </li>
                       <li className='results-line'><a href="/franklin_2021"   class="btn btn-info" role="button"><b>RESULTS</b></a>   </li>
                       
-                      <li className="rockbiter-race" id="register">Roughrider Canyon | 2/20/2022 | <a
+                      <li className="rockbiter-race" id="register">Roughrider Canyon | 2/20/2022  <a
                           className="App-link"
                           href="https://www.youtube.com/watch?v=MTFvMXJq280"
                           target="_blank"
