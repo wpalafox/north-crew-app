@@ -123,7 +123,7 @@ const news_links = data.map((item) =>
          
     
            
-        
+       
         
        
         
@@ -160,7 +160,7 @@ const news_links = data.map((item) =>
                   <ul className='AtAGlance'>
                       <li className="rockbiter-race">LOST DOG AT NIGHT | 9/4/2022 | <a href="/lost_dog_night_2022"  class="btn btn-info" role="button"><b>RESULTS</b></a>    </li> 
                     
-                      <li className="rockbiter-race">FRANKLIN MOUNTAINS | 10/2/2022   </li>
+                      <li className="rockbiter-race">FRANKLIN MOUNTAINS | 10/2/2022 |  <a href="https://www.bikereg.com/ependuro2" target="_blank"  class="btn btn-danger" role="button"><b>REGISTER</b></a>    </li>
                       
                      
                       <li className="rockbiter-race">LOST DOG | 11/20/2022  </li>
