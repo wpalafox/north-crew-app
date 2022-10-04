@@ -20,6 +20,7 @@ import Dog from './results_folder/lost_enduro.js'
 import Franklin from './results_folder/franklin.js'
 import Rider from './results_folder/rough_rider.js'
 import Darkduro from './results_folder/ld_night.js'
+import Franklin_2022 from './results_folder/franklin_2022.js'
 
 import News from './News.js'
 
@@ -40,6 +41,8 @@ ReactDOM.render(
       <Route path="/franklin_2021" element={<Franklin />} />
       <Route path="/rider_2021" element={<Rider />} />
       <Route path="/lost_dog_night_2022" element={<Darkduro />} />
+      <Route path="/franklin_2022" element={<Franklin_2022 />} />
+      
       <Route path="*" element={<NotFound />} />
 
       

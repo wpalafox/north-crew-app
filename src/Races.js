@@ -5,7 +5,7 @@ import 'react-awesome-slider/dist/styles.css';
 
 import results_image from './pics/results_shocklab.jpg';
 
-
+import Franklin_2022 from './results_folder/franklin_2022.js'
 
 
 
@@ -21,6 +21,7 @@ export default function Races() {
       ];
 
       const data1 = [
+        { race: 'Franklin Mtns | 10/2/2022', link: "/franklin_2022" },
         { race: 'Darkduro | 9/4/2022', link: "/lost_dog_night_2022" }
        
         

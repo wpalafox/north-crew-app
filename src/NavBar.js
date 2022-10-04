@@ -31,9 +31,7 @@ export default function NavBar() {
                                 <a className="nav-link" href="/contactus">Contact Us</a> 
                             </li>
 
-                            <li className="nav-item">
-                                <a className="nav-link" target="_blank" href="https://www.bikereg.com/ependuro2">Register</a> 
-                            </li>
+                         
                       
                         </ul>
 
