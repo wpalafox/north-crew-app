@@ -166,7 +166,7 @@ const news_links = data.map((item) =>
                       
                      
                       <li className="rockbiter-race">LOST DOG | 11/20/2022  </li>
-                      <li className='results-line'><a href="https://www.bikereg.com/ependuro3" target="_blank"  class="btn btn-danger" role="button"><b>REGISTER</b></a>    </li>
+                      <li className='results-line'><a href="/lost_dog_2022" class="btn btn-info" role="button"><b>RESULTS</b></a>    </li>
                       
 
                       <li className="rockbiter-race">MONKS | 12/18/2022  </li>

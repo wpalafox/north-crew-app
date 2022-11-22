@@ -16,13 +16,17 @@ export default function Races() {
         { race: 'Roughrider Canyon | 2/20/2022', link: "/rider_2021" },
         { race: 'Franklin Mountains | 12/18/2021 ', link: "/franklin_2021" },
         { race: 'Lost Dog Enduro | 11/21/2021 ', link: "/lost_dog_2021"},
-        { race: 'Monks Mayhem | 10/23/2021', link: "/monks_2021" },
+        { race: 'Monks Mayhem | 10/23/2021', link: "/monks_2021" }
         
       ];
 
       const data1 = [
+        { race: 'Lost Dog Enduro | 11/20/2022', link: "/lost_dog_2022" },
         { race: 'Franklin Mtns | 10/2/2022', link: "/franklin_2022" },
         { race: 'Darkduro | 9/4/2022', link: "/lost_dog_night_2022" }
+        
+        
+
        
         
       ];
