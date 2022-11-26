@@ -28,7 +28,7 @@ export default function NavBar() {
                             </li>
 
                             <li className="nav-item">
-                                <a className="nav-link" target="_blank" href="https://www.bikereg.com/ependuro3">Register</a>
+                                <a className="nav-link" target="_blank" href="https://www.bikereg.com/ependuro4">Register</a>
                             </li>
                             
                             <li className="nav-item">
