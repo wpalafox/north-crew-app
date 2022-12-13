@@ -16,6 +16,11 @@
   
 }
 
+.image-item{
+  width:300px;
+  margin: 10px;
+}
+
 #home-page{
   background-color: #0c0404;
   border: 2px solid rgba(161, 127, 26);
