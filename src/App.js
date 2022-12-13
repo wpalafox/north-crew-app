@@ -11,22 +11,9 @@ import mountain_header_hero from './pics/mountain_header_ependuro.jpg';
 import rocky_mountain_hero from './pics/El_Paso_Franklin_Mountains_and_Scenic_Drive_aerial.jpg'
 import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
-import max_photo from './pics/max_slider.jpg';
-import jump_photo from './pics/jump_slider.jpg';
-import podium_mo from './pics/podium_mo_slider.jpg';
-import genesis_slider from './pics/genesis_slider.jpg';
-import steezy_slide from './pics/podium_steezy.jpg';
-import luis_podium from './pics/podium_luis.jpg';
-import female_podium from './pics/a_podium.jpg';
-import mosco_ride from './pics/mosco_enduro.jpg';
-import arnold_podium from './pics/arnold_podium.jpg';
-import pablo_hustle from './pics/pablo_hustling.jpg';
-import rr_1 from './pics/rr_1.jpg';
-import rr_2 from './pics/rr_2.jpg';
-import rr_3 from './pics/rr_3.jpg';
-import Countdown from 'react-countdown';
+
 import Donate from './Donate.js';
-import Map from './pics/MAP_LD_NITE.png'; 
+
 
 //firebase imports
 import {useState, useEffect} from "react";
@@ -159,11 +146,15 @@ function App() {
 
           <div className='awesome-slider-div'>
           <h1 className="rockbiter-race news">Some Pics  </h1> 
-              
+            <div className='container'> 
+              <div className='black-box'>
               
               {imageList.map((url) => {
                     return <img className="image-item" src={url} />
                   })} 
+
+              </div>
+            </div>
      
           </div>
           <h1 className="rockbiter-race news">Donate  </h1> 
