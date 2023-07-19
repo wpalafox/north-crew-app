@@ -20,6 +20,7 @@ import BenEKeith from './pics/benEkeithsponsor.svg';
 import BorderBikes from './pics/border_bikes_logo.png';
 import HustleBikes from './pics/hustle-labs-facebook.png';
 import BlackOx from './pics/blackOx.png';
+import Gabe from './pics/gabriel-perez.jpg';
 //import Onin_Staffing from './pics/Onin_Staffing.png';
 
 /*
@@ -118,6 +119,58 @@ export default function Footer() {
 
             
 
+             <div className="row">
+                  
+                <div className="col-6">
+                    <a href="https://www.theshocklab.com/"  target="_blank"><img src={shock_logo} className="logo-image" alt="Logo" /></a>
+                </div>
+
+                 <div className="col-6">
+                    <a href="https://gabrielsperezlaw.com/"  target="_blank"><img  src={Gabe} className="logo-image" alt="Logo" /></a>
+                </div>
+           
+            </div>
+            
+          
+
+           
+           
+           
+         
+
+           
+
+            <div id ="bottom-lines" className="row">
+               
+                
+                
+                <div className="col-sm-6">
+                    <p id='copyright'>Copyright © 2023 MEROL RACING LLC. All rights reserved.</p>
+                </div>
+
+
+                <div className="col-sm-6">
+                    <p id='websites-elpaso'>Designed and Developed by Will Palafox </p>
+                </div>
+
+                
+                
+            </div>
+
+            
+        
+        
+        
+        
+         </div>
+    </div>
+    )
+}
+
+
+/*
+
+
             <div className="row">
                 <div className="col-4">
                         <a href="https://podiumfinishsportcafe.com/"  target="_blank"><img src={podium_logo} className="logo-image" alt="Logo" /></a>
@@ -178,40 +231,4 @@ export default function Footer() {
                
             </div>
 
-        
-            
-          
-
-           
-           
-           
-         
-
-           
-
-            <div id ="bottom-lines" className="row">
-               
-                
-                
-                <div className="col-sm-6">
-                    <p id='copyright'>Copyright © 2022 MEROL RACING LLC. All rights reserved.</p>
-                </div>
-
-
-                <div className="col-sm-6">
-                    <p id='websites-elpaso'>Designed and Developed by Websites El Paso LLC.          </p>
-                </div>
-
-                
-                
-            </div>
-
-            
-        
-        
-        
-        
-         </div>
-    </div>
-    )
-}
+            */

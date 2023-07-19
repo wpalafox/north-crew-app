@@ -1,6 +1,7 @@
 import React, { Component }  from 'react';
 
 
+import ReactPlayer from 'react-player'
 
 import './App.css';
 
@@ -8,11 +9,13 @@ import ep_logo from './ep_enduro_logo.svg';
 import hero_image from './pics/home_image_stoked.jpg';
 import background_ep from './pics/ep_enduro_background.jpg';
 import mountain_header_hero from './pics/mountain_header_ependuro.jpg';
-import rocky_mountain_hero from './pics/El_Paso_Franklin_Mountains_and_Scenic_Drive_aerial.jpg'
+import rocky_mountain_hero from './pics/El_Paso_Franklin_Mountains_and_Scenic_Drive_aerial333.png'
+
 import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
 
 import Donate from './Donate.js';
+
 
 
 //firebase imports
@@ -50,15 +53,22 @@ function App() {
           
           
       
-            
-        
           
+                
+          
+           
+             
+                
         
           
           
           
           <header className="App-header">
+              <div className='black-box'>
+                  <ReactPlayer id="player" className="video-player" url='https://www.youtube.com/watch?v=ZDM3sETGeMU' />
+              </div>
             <div id='home-page' className='container'>
+              
             
               
           
@@ -98,7 +108,7 @@ function App() {
                         
 
                         <li className="rockbiter-race">MONKS | 12/18/2022  </li>
-                        <li className='results-line'><a href="https://www.bikereg.com/ependuro4" class="btn btn-danger" role="button"><b>REGISTER</b></a>    </li>
+                        <li className='results-line'><a href="/monks_2022" class="btn btn-info" role="button"><b>RESULTS</b></a>    </li>
 
                         
                     

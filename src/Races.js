@@ -21,6 +21,7 @@ export default function Races() {
       ];
 
       const data1 = [
+        { race: 'Monks Mayhem | 12/18/2022', link: "/monks_2022" },
         { race: 'Lost Dog Enduro | 11/20/2022', link: "/lost_dog_2022" },
         { race: 'Franklin Mtns | 10/2/2022', link: "/franklin_2022" },
         { race: 'Darkduro | 9/4/2022', link: "/lost_dog_night_2022" }
