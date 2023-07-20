@@ -27,9 +27,7 @@ export default function NavBar() {
                                 <a className="nav-link" href="/races">Results</a>
                             </li>
 
-                            <li className="nav-item">
-                                <a className="nav-link" target="_blank" href="https://www.bikereg.com/ependuro4">Register</a>
-                            </li>
+                            
                             
                             <li className="nav-item">
                                 <a className="nav-link" href="/contactus">Contact Us</a> 
@@ -56,3 +54,5 @@ export default function NavBar() {
         </div>
     )
 }
+
+
