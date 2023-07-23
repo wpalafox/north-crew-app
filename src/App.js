@@ -92,29 +92,52 @@ function App() {
               
 
                 <div className='seriesPanel'>
-                <p className='seriesheader'>
-                      2022 Season:
-                      </p>
-                    <ul className='AtAGlance'>
-                        <li className="rockbiter-race">LOST DOG AT NIGHT | 9/4/2022  </li>
-                        <li className='results-line'><a href="/lost_dog_night_2022"  class="btn btn-info" role="button"><b>RESULTS</b></a> </li>   
-                      
-                        <li className="rockbiter-race">FRANKLIN MOUNTAINS | 10/2/2022   </li>
-                        <li className='results-line'><a href="/franklin_2022"  class="btn btn-info" role="button"><b>RESULTS</b></a>    </li>
-                        
-                      
-                        <li className="rockbiter-race">LOST DOG | 11/20/2022  </li>
-                        <li className='results-line'><a href="/lost_dog_2022" class="btn btn-info" role="button"><b>RESULTS</b></a>    </li>
-                        
+                    <p className='seriesheader'>
+                        2023 Season:
+                  </p>
+                      <ul className='AtAGlance'>
+                          <li className="rockbiter-race">LOST DOG AT NIGHT | 9/2/2023  </li>
+                  
+              
+                          <li className="rockbiter-race">LOST DOG | 10/21/2023  </li>
+                 
+                          
 
-                        <li className="rockbiter-race">MONKS | 12/18/2022  </li>
-                        <li className='results-line'><a href="/monks_2022" class="btn btn-info" role="button"><b>RESULTS</b></a>    </li>
+                          <li className="rockbiter-race">MONKS | 11/18/2023  </li>
+              
 
-                        
+                          
+                      
+                          
+                      </ul>
                     
+                  
+                  
+                  
+                  
+                  <p className='seriesheader'>
+                        2022 Season:
+                  </p>
+                      <ul className='AtAGlance'>
+                          <li className="rockbiter-race">LOST DOG AT NIGHT | 9/4/2022  </li>
+                          <li className='results-line'><a href="/lost_dog_night_2022"  class="btn btn-info" role="button"><b>RESULTS</b></a> </li>   
                         
-                    </ul>
-                    
+                          <li className="rockbiter-race">FRANKLIN MOUNTAINS | 10/2/2022   </li>
+                          <li className='results-line'><a href="/franklin_2022"  class="btn btn-info" role="button"><b>RESULTS</b></a>    </li>
+                          
+                        
+                          <li className="rockbiter-race">LOST DOG | 11/20/2022  </li>
+                          <li className='results-line'><a href="/lost_dog_2022" class="btn btn-info" role="button"><b>RESULTS</b></a>    </li>
+                          
+
+                          <li className="rockbiter-race">MONKS | 12/18/2022  </li>
+                          <li className='results-line'><a href="/monks_2022" class="btn btn-info" role="button"><b>RESULTS</b></a>    </li>
+
+                          
+                      
+                          
+                      </ul>
+                      
                     
                     
                     
