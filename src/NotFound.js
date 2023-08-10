@@ -1,7 +1,7 @@
 import React from 'react'
 import './NotFound.css'
 import bendita from './pics/Bendita.jpg';
-
+ 
 export default function NotFound() {
     return (
         <div className='notfound'>

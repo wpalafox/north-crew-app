@@ -23,6 +23,13 @@ export default function NavBar() {
                             <li className="nav-item">
                                 <a className="nav-link active" aria-current="page" href="/">Home</a>
                             </li>
+                           
+                           <li className="nav-item">
+                                <a className="nav-link" aria-current="page" href="https://www.bikereg.com/62056">Register</a>
+                            </li>
+                           
+                           
+                           
                             <li className="nav-item">
                                 <a className="nav-link" href="/races">Results</a>
                             </li>
