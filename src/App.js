@@ -111,8 +111,7 @@ function App() {
                           
                       </ul>
                     
-                  
-                  https://www.bikereg.com/62056
+                 
                   
                   
                   <p className='seriesheader'>
