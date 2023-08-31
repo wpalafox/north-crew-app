@@ -22,6 +22,7 @@ import HustleBikes from './pics/hustle-labs-facebook.png';
 import BlackOx from './pics/blackOx.png';
 import Gabe from './pics/gabriel-perez.jpg';
 import Max from './pics/max_tint.png'
+import Handup from './pics/hand_up.png'
 //import Onin_Staffing from './pics/Onin_Staffing.png';
 
 /*
@@ -180,6 +181,19 @@ export default function Footer() {
 
                 <div className="col-4">
                     <a href="https://podiumfinishsportcafe.com/"  target="_blank"><img src={podium_logo} className="logo-image" alt="Logo" /></a>
+                </div>
+               
+                
+            </div>
+
+            <div className="row">
+
+                <div className="col-4">
+                    <a href="https://handupgloves.com/"  target="_blank"><img src={Handup} className="logo-image" alt="Logo" /></a>
+                </div>
+
+                <div className="col-4">
+                    <a href="https://blackoxsealant.com/"  target="_blank"><img src={BlackOx} className="logo-image" alt="Logo" /></a>
                 </div>
                
             </div>
