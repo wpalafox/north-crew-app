@@ -146,7 +146,7 @@ export default function Footer() {
                 </div>
 
                 <div className="col-4">
-                    <a href="https://www.tintoreriasmax.com/"  target="_blank"><img  src={Max} className="logo-image" alt="Logo" /></a>
+                    <a href="https://www.facebook.com/MaxLasTorresJuarez/"  target="_blank"><img  src={Max} className="logo-image" alt="Logo" /></a>
                 </div>
 
                 
