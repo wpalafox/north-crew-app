@@ -188,12 +188,16 @@ export default function Footer() {
 
             <div className="row">
 
-                <div className="col-4">
-                    <a href="https://handupgloves.com/"  target="_blank"><img src={Handup} className="logo-image" alt="Logo" /></a>
-                </div>
+                
+                
+                
 
                 <div className="col-4">
                     <a href="https://blackoxsealant.com/"  target="_blank"><img src={BlackOx} className="logo-image" alt="Logo" /></a>
+                </div>
+
+                <div className="col-4">
+                    <a href="https://handupgloves.com/"  target="_blank"><img src={Handup} className="logo-image" alt="Logo" /></a>
                 </div>
                
             </div>
