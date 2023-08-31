@@ -9,7 +9,7 @@ import kogel_logo from './pics/Kogel_White_Logo.png';
 import masEP_logo from './pics/MASEP_new.png';
 import pollo_logo from './pics/POLLO_LOGO_ORIGINAL.svg';
 import bmba_logo from './pics/sponsor-bmba.png';
-import crazy_cat_logo from './pics/crazycat_logo.png';
+import crazy_logo from './pics/crazycat_logo.png';
 import handske_logo from './pics/sponsor-handske.png';
 import merol_logo from  './pics/sponsor-merol.svg';
 import shock_logo from './pics/The_shock_lab_black_logo.svg';
@@ -21,6 +21,7 @@ import BorderBikes from './pics/border_bikes_logo.png';
 import HustleBikes from './pics/hustle-labs-facebook.png';
 import BlackOx from './pics/blackOx.png';
 import Gabe from './pics/gabriel-perez.jpg';
+import Max from './pics/max_tint.png'
 //import Onin_Staffing from './pics/Onin_Staffing.png';
 
 /*
@@ -117,18 +118,70 @@ export default function Footer() {
         <div className="container">
            
 
+           <div className="row">
+                <div className="col-4">
+                        <a href="https://www.huntcompanies.com/"  target="_blank"> <img src={hunt_logo} className="logo-image" alt="Logo" /></a>
+                </div>
+
+                <div className="col-4">
+                        <a href="https://www.huntcompanies.com/"  target="_blank"> <img src={hunt_logo} className="logo-image" alt="Logo" /></a>
+                </div>
+
+                <div className="col-4">
+                        <a href="https://www.huntcompanies.com/"  target="_blank"> <img src={hunt_logo} className="logo-image" alt="Logo" /></a>
+                </div>
+                
+                
+            </div>
             
 
              <div className="row">
                   
-                <div className="col-6">
+                <div className="col-4">
                     <a href="https://www.theshocklab.com/"  target="_blank"><img src={shock_logo} className="logo-image" alt="Logo" /></a>
                 </div>
 
-                 <div className="col-6">
+                 <div className="col-4">
                     <a href="https://gabrielsperezlaw.com/"  target="_blank"><img  src={Gabe} className="logo-image" alt="Logo" /></a>
                 </div>
+
+                <div className="col-4">
+                    <a href="https://www.tintoreriasmax.com/"  target="_blank"><img  src={Max} className="logo-image" alt="Logo" /></a>
+                </div>
+
+                
            
+            </div>
+
+            <div className="row">
+            
+              
+                <div className="col-4">
+                    <a href="http://www.bmbaelpaso.org/"  target="_blank"><img src={bmba_logo} className="logo-image" alt="Logo" /></a>
+                </div>
+
+                <div className="col-4">
+                        <a href="https://crazycatcyclery.com/"  target="_blank"> <img src={crazy_logo} className="logo-image" alt="Logo" /></a>
+                </div>
+
+                <div className="col-4">
+                    <a href="https://www.benekeith.com/beverage/"  target="_blank"><img src={BenEKeith} className="logo-image" alt="Logo" /></a>
+                </div>
+                
+            </div>
+      
+            <div className="row">
+                <div className="col-4">
+                    <a href="https://www.handskegloves.com/"  target="_blank"><img src={handske_logo} className="logo-image" alt="Logo" /></a>
+                </div>
+                <div className="col-4">
+                    <a href="https://www.merolracing.com/"  target="_blank"><img src={merol_logo} className="logo-image" alt="Logo" /></a>
+                </div>
+
+                <div className="col-4">
+                    <a href="https://podiumfinishsportcafe.com/"  target="_blank"><img src={podium_logo} className="logo-image" alt="Logo" /></a>
+                </div>
+               
             </div>
             
           
