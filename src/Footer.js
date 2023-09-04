@@ -119,9 +119,17 @@ export default function Footer() {
         <div className="container">
             
             <div className="row">
+
+                    <div className="col-4">
+                        <a href="https://www.merolracing.com/"  target="_blank"><img src={merol_logo} className="logo-image" alt="Logo" /></a>
+                    </div>
                 
-                    <div className="col-12">
-                        <h1 className="rockbiter-race">2023 Sponsors  </h1>
+                    <div className="col-4">
+                        <h1 className="rockbiter-race">Sponsors  </h1>
+                    </div>
+
+                    <div className="col-4">
+                        <a href="https://www.merolracing.com/"  target="_blank"><img src={merol_logo} className="logo-image" alt="Logo" /></a>
                     </div>
             </div>
         
@@ -184,7 +192,7 @@ export default function Footer() {
                     <a href="https://www.handskegloves.com/"  target="_blank"><img src={handske_logo} className="logo-image" alt="Logo" /></a>
                 </div>
                 <div className="col-4">
-                    <a href="https://www.merolracing.com/"  target="_blank"><img src={merol_logo} className="logo-image" alt="Logo" /></a>
+                    <a href="https://hustlebikelabs.com/"  target="_blank"><img src={HustleBikes} className="logo-image" alt="Logo" /></a>
                 </div>
 
                 <div className="col-4">
@@ -208,9 +216,7 @@ export default function Footer() {
                     <a href="https://handupgloves.com/"  target="_blank"><img src={Handup} className="logo-image" alt="Logo" /></a>
                 </div>
 
-                <div className="col-4">
-                    <a href="https://hustlebikelabs.com/"  target="_blank"><img src={HustleBikes} className="logo-image" alt="Logo" /></a>
-                </div>
+              
                
             </div>
             
