@@ -117,7 +117,15 @@ export default function Footer() {
     return (
     <div className="footer-enduro" style={{ backgroundImage: `url(${blackground_geo})` }} >
         <div className="container">
-           
+            
+            <div className="row">
+                
+                    <div className="col-12">
+                        <h1 className="rockbiter-race">2023 Sponsors  </h1>
+                    </div>
+            </div>
+        
+     
 
            <div className="row">
                 <div className="col-4">
