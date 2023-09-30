@@ -100,6 +100,7 @@ function App() {
                           <li className='results-line'><a href="/ld_night_2023" class="btn btn-info" role="button"><b>RESULTS</b></a> </li> 
               
                           <li className="rockbiter-race">LOST DOG | 10/21/2023  </li>
+                          <li className='results-line'><a href="https://www.bikereg.com/62596" class="btn btn-danger" role="button"><b>REGISTER</b></a> </li> 
                  
                           
 
