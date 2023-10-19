@@ -26,16 +26,36 @@ export default function Races() {
         { race: 'Franklin Mtns | 10/2/2022', link: "/franklin_2022" },
         { race: 'Darkduro | 9/4/2022', link: "/lost_dog_night_2022" }
         
+      ]
+    
+        const data2 = [
+            { race: 'Darkduro 2023 | 9/2/2023', link: "/ld_night_2023" },
+
+        ]
+           
+        
         
 
        
         
-      ];
+
 
     const image_paths = ['./pics/max_slider.jpg', './pics/jump_slider.jpg', './pics/podium_mo_slider.jpg', './pics/podium_steezy.jpg']
 
     const images =  image_paths.map((image) =><div data-src={image} />  );
       
+    const race_links2 = data2.map((item) =>
+            <li className="list-group-item">  
+                <a
+                className="App-link"
+                href={item.link}
+              
+                rel="noopener noreferrer">
+                    {item.race}
+                </a>
+            </li>
+     
+     );
     
       const race_links = data.map((item) =>
             <li className="list-group-item">  
@@ -72,6 +92,12 @@ export default function Races() {
                     
         
                     <div id="race-list" className='container'>
+
+                    <h1 className='results_season'>2023 Season</h1>
+                        <ul id="race-list-test" className="list-group test">
+                            {race_links2}
+                                    
+                        </ul>
                     
                     <h1 className='results_season'>2022 Season</h1>
                         <ul id="race-list-test" className="list-group test">
