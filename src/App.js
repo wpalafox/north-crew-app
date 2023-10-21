@@ -97,7 +97,7 @@ function App() {
                   </p>
                       <ul className='AtAGlance'>
                           <li className="rockbiter-race">DARKDURO | 9/2/2023  </li>
-                          <li className='results-line'><a href="https://www.bikereg.com/62056" class="btn btn-danger" role="button"><b>REGISTER</b></a> </li> 
+                          <li className='results-line'><a href="/ld_night_2023" class="btn btn-info" role="button"><b>RESULTS</b></a> </li> 
               
                           <li className="rockbiter-race">GNARDURO | 10/21/2023  </li>
                  
