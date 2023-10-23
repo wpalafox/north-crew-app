@@ -30,6 +30,7 @@ export default function Races() {
     
         const data2 = [
             { race: 'Darkduro 2023 | 9/2/2023', link: "/ld_night_2023" },
+            { race: 'Gnarduro 2023 | 10/21/2023', link: "/ld_day_2023" },
 
         ]
            
