@@ -25,7 +25,7 @@ export default function NavBar() {
                             </li>
                            
                            <li className="nav-item">
-                                <a className="nav-link" aria-current="page" href="https://www.bikereg.com/62596">Register</a>
+                                <a className="nav-link" aria-current="page" href="https://www.bikereg.com/epemonks2023">Register</a>
                             </li>
                            
                            
