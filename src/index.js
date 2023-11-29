@@ -25,7 +25,7 @@ import LostD_2022 from './results_folder/lost_dog_2022.js'
 import Monks_2022 from './results_folder/monks_2022.js'
 import LD_Night_2023 from './results_folder/ld_night_2023.js'
 import LD_Day_2023 from './results_folder/ld_day_2023.js'
-
+import Monks_2023 from './results_folder/monks_2023.js'
 import News from './News.js'
 
 
@@ -50,6 +50,7 @@ ReactDOM.render(
       <Route path="/monks_2022" element={<Monks_2022 />} />
       <Route path="/ld_night_2023" element={<LD_Night_2023 />} />
        <Route path="/ld_day_2023" element={<LD_Day_2023 />} />
+       <Route path="/monks_2023" element={<Monks_2023 />} />
       
       <Route path="*" element={<NotFound />} />
 

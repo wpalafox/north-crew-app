@@ -104,7 +104,7 @@ function App() {
                           
 
                           <li className="rockbiter-race">MONKS | 11/18/2023  </li>
-                            <li className='results-line'><a href="https://www.bikereg.com/epemonks2023" class="btn btn-danger" role="button"><b>REGISTER</b></a> </li> 
+                            <li className='results-line'><a href="/monks_2023" class="btn btn-info" role="button"><b>RESULTS</b></a> </li> 
                             
               
 
